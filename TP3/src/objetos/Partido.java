@@ -1,4 +1,5 @@
 package objetos;
+
 import java.util.Comparator;
 
 public class Partido implements Comparator<Partido> {

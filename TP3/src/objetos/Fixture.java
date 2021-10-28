@@ -21,7 +21,7 @@ public class Fixture {
 
 	
 	@SuppressWarnings("unchecked")
-	public ArrayList<Fecha> getMatchesDay() {
+	public ArrayList<Fecha> getFechas() {
 		return (ArrayList<Fecha>) fechasDelTorneo.clone();
 	}
 }
