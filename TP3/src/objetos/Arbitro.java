@@ -6,6 +6,11 @@ public class Arbitro {
 	private String nombre;
 	
 	
+	/**
+	 * Constructor de Arbitro
+	 * @param codigo
+	 * @param nombre
+	 */
 	public Arbitro(int codigo, String nombre) {
 		this.codigo = codigo;
 		this.nombre = nombre;
@@ -20,5 +25,4 @@ public class Arbitro {
 	public String getNombre() {
 		return nombre;
 	}
-	
 }
