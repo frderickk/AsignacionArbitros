@@ -24,4 +24,12 @@ public class Fixture {
 	public ArrayList<Fecha> getFechas() {
 		return (ArrayList<Fecha>) fechasDelTorneo.clone();
 	}
+
+
+	@Override
+	public String toString() {
+		return "Fixture [fechasDelTorneo=" + fechasDelTorneo + "]";
+	}
+	
+	
 }

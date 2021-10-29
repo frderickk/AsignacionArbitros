@@ -4,849 +4,1669 @@
     <fechasDelTorneo>
       <numeroDeFecha>1</numeroDeFecha>
       <partidos>
-        <local>Independiente</local>
-        <visitante>Atletico Tucuman</visitante>
+        <local>
+          <nombre>Independiente</nombre>
+        </local>
+        <visitante>
+          <nombre>Atletico Tucuman</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Tigre</local>
-        <visitante>Estudiantes LP</visitante>
+        <local>
+          <nombre>Tigre</nombre>
+        </local>
+        <visitante>
+          <nombre>Estudiantes LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>River</local>
-        <visitante>Gimnasia LP</visitante>
+        <local>
+          <nombre>River</nombre>
+        </local>
+        <visitante>
+          <nombre>Gimnasia LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Boca</local>
-        <visitante>Godoy Cruz</visitante>
+        <local>
+          <nombre>Boca</nombre>
+        </local>
+        <visitante>
+          <nombre>Godoy Cruz</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Racing</local>
-        <visitante>Platense</visitante>
+        <local>
+          <nombre>Racing</nombre>
+        </local>
+        <visitante>
+          <nombre>Platense</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>San Lorenzo</local>
-        <visitante>Talleres</visitante>
+        <local>
+          <nombre>San Lorenzo</nombre>
+        </local>
+        <visitante>
+          <nombre>Talleres</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Huracan</local>
-        <visitante>Newells</visitante>
+        <local>
+          <nombre>Huracan</nombre>
+        </local>
+        <visitante>
+          <nombre>Newells</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Velez</local>
-        <visitante>Central</visitante>
+        <local>
+          <nombre>Velez</nombre>
+        </local>
+        <visitante>
+          <nombre>Central</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Lanus</local>
-        <visitante>Union</visitante>
+        <local>
+          <nombre>Lanus</nombre>
+        </local>
+        <visitante>
+          <nombre>Union</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Banfield</local>
-        <visitante>Colon</visitante>
+        <local>
+          <nombre>Banfield</nombre>
+        </local>
+        <visitante>
+          <nombre>Colon</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>2</numeroDeFecha>
       <partidos>
-        <local>Independiente</local>
-        <visitante>Tigre</visitante>
+        <local>
+          <nombre>Independiente</nombre>
+        </local>
+        <visitante>
+          <nombre>Tigre</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Estudiantes LP</local>
-        <visitante>River</visitante>
+        <local>
+          <nombre>Estudiantes LP</nombre>
+        </local>
+        <visitante>
+          <nombre>River</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Gimnasia LP</local>
-        <visitante>Boca</visitante>
+        <local>
+          <nombre>Gimnasia LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Boca</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Godoy Cruz</local>
-        <visitante>Racing</visitante>
+        <local>
+          <nombre>Godoy Cruz</nombre>
+        </local>
+        <visitante>
+          <nombre>Racing</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Platense</local>
-        <visitante>San Lorenzo</visitante>
+        <local>
+          <nombre>Platense</nombre>
+        </local>
+        <visitante>
+          <nombre>San Lorenzo</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Talleres</local>
-        <visitante>Huracan</visitante>
+        <local>
+          <nombre>Talleres</nombre>
+        </local>
+        <visitante>
+          <nombre>Huracan</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Newells</local>
-        <visitante>Velez</visitante>
+        <local>
+          <nombre>Newells</nombre>
+        </local>
+        <visitante>
+          <nombre>Velez</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Central</local>
-        <visitante>Lanus</visitante>
+        <local>
+          <nombre>Central</nombre>
+        </local>
+        <visitante>
+          <nombre>Lanus</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Union</local>
-        <visitante>Banfield</visitante>
+        <local>
+          <nombre>Union</nombre>
+        </local>
+        <visitante>
+          <nombre>Banfield</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Atletico Tucuman</local>
-        <visitante>Colon</visitante>
+        <local>
+          <nombre>Atletico Tucuman</nombre>
+        </local>
+        <visitante>
+          <nombre>Colon</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>3</numeroDeFecha>
       <partidos>
-        <local>River</local>
-        <visitante>Independiente</visitante>
+        <local>
+          <nombre>River</nombre>
+        </local>
+        <visitante>
+          <nombre>Independiente</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Tigre</local>
-        <visitante>Atletico Tucuman</visitante>
+        <local>
+          <nombre>Tigre</nombre>
+        </local>
+        <visitante>
+          <nombre>Atletico Tucuman</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Boca</local>
-        <visitante>Estudiantes LP</visitante>
+        <local>
+          <nombre>Boca</nombre>
+        </local>
+        <visitante>
+          <nombre>Estudiantes LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Racing</local>
-        <visitante>Gimnasia LP</visitante>
+        <local>
+          <nombre>Racing</nombre>
+        </local>
+        <visitante>
+          <nombre>Gimnasia LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>San Lorenzo</local>
-        <visitante>Godoy Cruz</visitante>
+        <local>
+          <nombre>San Lorenzo</nombre>
+        </local>
+        <visitante>
+          <nombre>Godoy Cruz</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Huracan</local>
-        <visitante>Platense</visitante>
+        <local>
+          <nombre>Huracan</nombre>
+        </local>
+        <visitante>
+          <nombre>Platense</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Velez</local>
-        <visitante>Talleres</visitante>
+        <local>
+          <nombre>Velez</nombre>
+        </local>
+        <visitante>
+          <nombre>Talleres</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Lanus</local>
-        <visitante>Newells</visitante>
+        <local>
+          <nombre>Lanus</nombre>
+        </local>
+        <visitante>
+          <nombre>Newells</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Banfield</local>
-        <visitante>Central</visitante>
+        <local>
+          <nombre>Banfield</nombre>
+        </local>
+        <visitante>
+          <nombre>Central</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Colon</local>
-        <visitante>Union</visitante>
+        <local>
+          <nombre>Colon</nombre>
+        </local>
+        <visitante>
+          <nombre>Union</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>4</numeroDeFecha>
       <partidos>
-        <local>Union</local>
-        <visitante>Atletico Tucuman</visitante>
+        <local>
+          <nombre>Union</nombre>
+        </local>
+        <visitante>
+          <nombre>Atletico Tucuman</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Estudiantes LP</local>
-        <visitante>Racing</visitante>
+        <local>
+          <nombre>Estudiantes LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Racing</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Gimnasia LP</local>
-        <visitante>San Lorenzo</visitante>
+        <local>
+          <nombre>Gimnasia LP</nombre>
+        </local>
+        <visitante>
+          <nombre>San Lorenzo</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Godoy Cruz</local>
-        <visitante>Huracan</visitante>
+        <local>
+          <nombre>Godoy Cruz</nombre>
+        </local>
+        <visitante>
+          <nombre>Huracan</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Platense</local>
-        <visitante>Velez</visitante>
+        <local>
+          <nombre>Platense</nombre>
+        </local>
+        <visitante>
+          <nombre>Velez</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Talleres</local>
-        <visitante>Lanus</visitante>
+        <local>
+          <nombre>Talleres</nombre>
+        </local>
+        <visitante>
+          <nombre>Lanus</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Newells</local>
-        <visitante>Banfield</visitante>
+        <local>
+          <nombre>Newells</nombre>
+        </local>
+        <visitante>
+          <nombre>Banfield</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Central</local>
-        <visitante>Colon</visitante>
+        <local>
+          <nombre>Central</nombre>
+        </local>
+        <visitante>
+          <nombre>Colon</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Independiente</local>
-        <visitante>Boca</visitante>
+        <local>
+          <nombre>Independiente</nombre>
+        </local>
+        <visitante>
+          <nombre>Boca</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Tigre</local>
-        <visitante>River</visitante>
+        <local>
+          <nombre>Tigre</nombre>
+        </local>
+        <visitante>
+          <nombre>River</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>5</numeroDeFecha>
       <partidos>
-        <local>Racing</local>
-        <visitante>Independiente</visitante>
+        <local>
+          <nombre>Racing</nombre>
+        </local>
+        <visitante>
+          <nombre>Independiente</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Boca</local>
-        <visitante>Tigre</visitante>
+        <local>
+          <nombre>Boca</nombre>
+        </local>
+        <visitante>
+          <nombre>Tigre</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>San Lorenzo</local>
-        <visitante>Estudiantes LP</visitante>
+        <local>
+          <nombre>San Lorenzo</nombre>
+        </local>
+        <visitante>
+          <nombre>Estudiantes LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Huracan</local>
-        <visitante>Gimnasia LP</visitante>
+        <local>
+          <nombre>Huracan</nombre>
+        </local>
+        <visitante>
+          <nombre>Gimnasia LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Velez</local>
-        <visitante>Godoy Cruz</visitante>
+        <local>
+          <nombre>Velez</nombre>
+        </local>
+        <visitante>
+          <nombre>Godoy Cruz</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Lanus</local>
-        <visitante>Platense</visitante>
+        <local>
+          <nombre>Lanus</nombre>
+        </local>
+        <visitante>
+          <nombre>Platense</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Banfield</local>
-        <visitante>Talleres</visitante>
+        <local>
+          <nombre>Banfield</nombre>
+        </local>
+        <visitante>
+          <nombre>Talleres</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Colon</local>
-        <visitante>Newells</visitante>
+        <local>
+          <nombre>Colon</nombre>
+        </local>
+        <visitante>
+          <nombre>Newells</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Union</local>
-        <visitante>Central</visitante>
+        <local>
+          <nombre>Union</nombre>
+        </local>
+        <visitante>
+          <nombre>Central</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Atletico Tucuman</local>
-        <visitante>River</visitante>
+        <local>
+          <nombre>Atletico Tucuman</nombre>
+        </local>
+        <visitante>
+          <nombre>River</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>6</numeroDeFecha>
       <partidos>
-        <local>Central</local>
-        <visitante>Atletico Tucuman</visitante>
+        <local>
+          <nombre>Central</nombre>
+        </local>
+        <visitante>
+          <nombre>Atletico Tucuman</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Estudiantes Lp</local>
-        <visitante>Huracan</visitante>
+        <local>
+          <nombre>Estudiantes LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Huracan</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Gimnasia LP</local>
-        <visitante>Velez</visitante>
+        <local>
+          <nombre>Gimnasia LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Velez</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Godoy Cruz</local>
-        <visitante>Lanus</visitante>
+        <local>
+          <nombre>Godoy Cruz</nombre>
+        </local>
+        <visitante>
+          <nombre>Lanus</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Platense</local>
-        <visitante>Banfield</visitante>
+        <local>
+          <nombre>Platense</nombre>
+        </local>
+        <visitante>
+          <nombre>Banfield</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Talleres</local>
-        <visitante>Colon</visitante>
+        <local>
+          <nombre>Talleres</nombre>
+        </local>
+        <visitante>
+          <nombre>Colon</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Newells</local>
-        <visitante>Union</visitante>
+        <local>
+          <nombre>Newells</nombre>
+        </local>
+        <visitante>
+          <nombre>Union</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Independiente</local>
-        <visitante>San Lorenzo</visitante>
+        <local>
+          <nombre>Independiente</nombre>
+        </local>
+        <visitante>
+          <nombre>San Lorenzo</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Tigre</local>
-        <visitante>Racing</visitante>
+        <local>
+          <nombre>Tigre</nombre>
+        </local>
+        <visitante>
+          <nombre>Racing</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>River</local>
-        <visitante>Boca</visitante>
+        <local>
+          <nombre>River</nombre>
+        </local>
+        <visitante>
+          <nombre>Boca</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>7</numeroDeFecha>
       <partidos>
-        <local>Huracan</local>
-        <visitante>Independiente</visitante>
+        <local>
+          <nombre>Huracan</nombre>
+        </local>
+        <visitante>
+          <nombre>Independiente</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>San Lorenzo</local>
-        <visitante>Tigre</visitante>
+        <local>
+          <nombre>San Lorenzo</nombre>
+        </local>
+        <visitante>
+          <nombre>Tigre</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Atletico Tucuman</local>
-        <visitante>Boca</visitante>
+        <local>
+          <nombre>Atletico Tucuman</nombre>
+        </local>
+        <visitante>
+          <nombre>Boca</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Racing</local>
-        <visitante>River</visitante>
+        <local>
+          <nombre>Racing</nombre>
+        </local>
+        <visitante>
+          <nombre>River</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Velez</local>
-        <visitante>Estudiantes LP</visitante>
+        <local>
+          <nombre>Velez</nombre>
+        </local>
+        <visitante>
+          <nombre>Estudiantes LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Lanus</local>
-        <visitante>Gimnasia LP</visitante>
+        <local>
+          <nombre>Lanus</nombre>
+        </local>
+        <visitante>
+          <nombre>Gimnasia LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Banfield</local>
-        <visitante>Godoy Cruz</visitante>
+        <local>
+          <nombre>Banfield</nombre>
+        </local>
+        <visitante>
+          <nombre>Godoy Cruz</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Colon</local>
-        <visitante>Platense</visitante>
+        <local>
+          <nombre>Colon</nombre>
+        </local>
+        <visitante>
+          <nombre>Platense</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Union</local>
-        <visitante>Talleres</visitante>
+        <local>
+          <nombre>Union</nombre>
+        </local>
+        <visitante>
+          <nombre>Talleres</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Central</local>
-        <visitante>Newells</visitante>
+        <local>
+          <nombre>Central</nombre>
+        </local>
+        <visitante>
+          <nombre>Newells</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>8</numeroDeFecha>
       <partidos>
-        <local>Independiente</local>
-        <visitante>Velez</visitante>
+        <local>
+          <nombre>Independiente</nombre>
+        </local>
+        <visitante>
+          <nombre>Velez</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Tigre</local>
-        <visitante>Huracan</visitante>
+        <local>
+          <nombre>Tigre</nombre>
+        </local>
+        <visitante>
+          <nombre>Huracan</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>River</local>
-        <visitante>San Lorenzo</visitante>
+        <local>
+          <nombre>River</nombre>
+        </local>
+        <visitante>
+          <nombre>San Lorenzo</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Boca</local>
-        <visitante>Racing</visitante>
+        <local>
+          <nombre>Boca</nombre>
+        </local>
+        <visitante>
+          <nombre>Racing</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Estudiantes LP</local>
-        <visitante>Lanus</visitante>
+        <local>
+          <nombre>Estudiantes LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Lanus</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Gimnasia LP</local>
-        <visitante>Banfield</visitante>
+        <local>
+          <nombre>Gimnasia LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Banfield</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Godoy Cruz</local>
-        <visitante>Colon</visitante>
+        <local>
+          <nombre>Godoy Cruz</nombre>
+        </local>
+        <visitante>
+          <nombre>Colon</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Platense</local>
-        <visitante>Union</visitante>
+        <local>
+          <nombre>Platense</nombre>
+        </local>
+        <visitante>
+          <nombre>Union</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Talleres</local>
-        <visitante>Central</visitante>
+        <local>
+          <nombre>Talleres</nombre>
+        </local>
+        <visitante>
+          <nombre>Central</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Newells</local>
-        <visitante>Atletico Tucuman</visitante>
+        <local>
+          <nombre>Newells</nombre>
+        </local>
+        <visitante>
+          <nombre>Atletico Tucuman</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>9</numeroDeFecha>
       <partidos>
-        <local>Lanus</local>
-        <visitante>Independiente</visitante>
+        <local>
+          <nombre>Lanus</nombre>
+        </local>
+        <visitante>
+          <nombre>Independiente</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Velez</local>
-        <visitante>Tigre</visitante>
+        <local>
+          <nombre>Velez</nombre>
+        </local>
+        <visitante>
+          <nombre>Tigre</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Huracan</local>
-        <visitante>River</visitante>
+        <local>
+          <nombre>Huracan</nombre>
+        </local>
+        <visitante>
+          <nombre>River</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>San Lorenzo</local>
-        <visitante>Boca</visitante>
+        <local>
+          <nombre>San Lorenzo</nombre>
+        </local>
+        <visitante>
+          <nombre>Boca</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Atletico Tucuman</local>
-        <visitante>Racing</visitante>
+        <local>
+          <nombre>Atletico Tucuman</nombre>
+        </local>
+        <visitante>
+          <nombre>Racing</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Banfield</local>
-        <visitante>Estudiantes LP</visitante>
+        <local>
+          <nombre>Banfield</nombre>
+        </local>
+        <visitante>
+          <nombre>Estudiantes LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Colon</local>
-        <visitante>Gimnasia LP</visitante>
+        <local>
+          <nombre>Colon</nombre>
+        </local>
+        <visitante>
+          <nombre>Gimnasia LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Union</local>
-        <visitante>Godoy Cruz</visitante>
+        <local>
+          <nombre>Union</nombre>
+        </local>
+        <visitante>
+          <nombre>Godoy Cruz</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Central</local>
-        <visitante>Platense</visitante>
+        <local>
+          <nombre>Central</nombre>
+        </local>
+        <visitante>
+          <nombre>Platense</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Newells</local>
-        <visitante>Talleres</visitante>
+        <local>
+          <nombre>Newells</nombre>
+        </local>
+        <visitante>
+          <nombre>Talleres</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>10</numeroDeFecha>
       <partidos>
-        <local>Independiente</local>
-        <visitante>Banfield</visitante>
+        <local>
+          <nombre>Independiente</nombre>
+        </local>
+        <visitante>
+          <nombre>Banfield</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Tigre</local>
-        <visitante>Lanus</visitante>
+        <local>
+          <nombre>Tigre</nombre>
+        </local>
+        <visitante>
+          <nombre>Lanus</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>River</local>
-        <visitante>Velez</visitante>
+        <local>
+          <nombre>River</nombre>
+        </local>
+        <visitante>
+          <nombre>Velez</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Boca</local>
-        <visitante>Huracan</visitante>
+        <local>
+          <nombre>Boca</nombre>
+        </local>
+        <visitante>
+          <nombre>Huracan</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Racing</local>
-        <visitante>San Lorenzo</visitante>
+        <local>
+          <nombre>Racing</nombre>
+        </local>
+        <visitante>
+          <nombre>San Lorenzo</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Talleres</local>
-        <visitante>Atletico Tucuman</visitante>
+        <local>
+          <nombre>Talleres</nombre>
+        </local>
+        <visitante>
+          <nombre>Atletico Tucuman</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Platense</local>
-        <visitante>Newells</visitante>
+        <local>
+          <nombre>Platense</nombre>
+        </local>
+        <visitante>
+          <nombre>Newells</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Godoy Cruz</local>
-        <visitante>Central</visitante>
+        <local>
+          <nombre>Godoy Cruz</nombre>
+        </local>
+        <visitante>
+          <nombre>Central</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Gimnasia LP</local>
-        <visitante>Union</visitante>
+        <local>
+          <nombre>Gimnasia LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Union</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Estudiantes LP</local>
-        <visitante>Colon</visitante>
+        <local>
+          <nombre>Estudiantes LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Colon</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>11</numeroDeFecha>
       <partidos>
-        <local>Colon</local>
-        <visitante>Independiente</visitante>
+        <local>
+          <nombre>Colon</nombre>
+        </local>
+        <visitante>
+          <nombre>Independiente</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Banfield</local>
-        <visitante>Tigre</visitante>
+        <local>
+          <nombre>Banfield</nombre>
+        </local>
+        <visitante>
+          <nombre>Tigre</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Lanus</local>
-        <visitante>River</visitante>
+        <local>
+          <nombre>Lanus</nombre>
+        </local>
+        <visitante>
+          <nombre>River</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Velez</local>
-        <visitante>Boca</visitante>
+        <local>
+          <nombre>Velez</nombre>
+        </local>
+        <visitante>
+          <nombre>Boca</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Huracan</local>
-        <visitante>Racing</visitante>
+        <local>
+          <nombre>Huracan</nombre>
+        </local>
+        <visitante>
+          <nombre>Racing</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Atletico Tucuman</local>
-        <visitante>San Lorenzo</visitante>
+        <local>
+          <nombre>Atletico Tucuman</nombre>
+        </local>
+        <visitante>
+          <nombre>San Lorenzo</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Union</local>
-        <visitante>Estudiantes LP</visitante>
+        <local>
+          <nombre>Union</nombre>
+        </local>
+        <visitante>
+          <nombre>Estudiantes LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Central</local>
-        <visitante>Gimnasia LP</visitante>
+        <local>
+          <nombre>Central</nombre>
+        </local>
+        <visitante>
+          <nombre>Gimnasia LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Newells</local>
-        <visitante>Godoy Cruz</visitante>
+        <local>
+          <nombre>Newells</nombre>
+        </local>
+        <visitante>
+          <nombre>Godoy Cruz</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Talleres</local>
-        <visitante>Platense</visitante>
+        <local>
+          <nombre>Talleres</nombre>
+        </local>
+        <visitante>
+          <nombre>Platense</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>12</numeroDeFecha>
       <partidos>
-        <local>Independiente</local>
-        <visitante>Union</visitante>
+        <local>
+          <nombre>Independiente</nombre>
+        </local>
+        <visitante>
+          <nombre>Union</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Tigre</local>
-        <visitante>Colon</visitante>
+        <local>
+          <nombre>Tigre</nombre>
+        </local>
+        <visitante>
+          <nombre>Colon</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>River</local>
-        <visitante>Banfield</visitante>
+        <local>
+          <nombre>River</nombre>
+        </local>
+        <visitante>
+          <nombre>Banfield</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Boca</local>
-        <visitante>Lanus</visitante>
+        <local>
+          <nombre>Boca</nombre>
+        </local>
+        <visitante>
+          <nombre>Lanus</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Racing</local>
-        <visitante>Velez</visitante>
+        <local>
+          <nombre>Racing</nombre>
+        </local>
+        <visitante>
+          <nombre>Velez</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>San Lorenzo</local>
-        <visitante>Huracan</visitante>
+        <local>
+          <nombre>San Lorenzo</nombre>
+        </local>
+        <visitante>
+          <nombre>Huracan</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Estudiantes LP</local>
-        <visitante>Central</visitante>
+        <local>
+          <nombre>Estudiantes LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Central</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Gimnasia LP</local>
-        <visitante>Newells</visitante>
+        <local>
+          <nombre>Gimnasia LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Newells</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Godoy Cruz</local>
-        <visitante>Talleres</visitante>
+        <local>
+          <nombre>Godoy Cruz</nombre>
+        </local>
+        <visitante>
+          <nombre>Talleres</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Platense</local>
-        <visitante>Atletico Tucuman</visitante>
+        <local>
+          <nombre>Platense</nombre>
+        </local>
+        <visitante>
+          <nombre>Atletico Tucuman</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>13</numeroDeFecha>
       <partidos>
-        <local>Central</local>
-        <visitante>Independiente</visitante>
+        <local>
+          <nombre>Central</nombre>
+        </local>
+        <visitante>
+          <nombre>Independiente</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Union</local>
-        <visitante>Tigre</visitante>
+        <local>
+          <nombre>Union</nombre>
+        </local>
+        <visitante>
+          <nombre>Tigre</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Colon</local>
-        <visitante>River</visitante>
+        <local>
+          <nombre>Colon</nombre>
+        </local>
+        <visitante>
+          <nombre>River</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Banfield</local>
-        <visitante>Boca</visitante>
+        <local>
+          <nombre>Banfield</nombre>
+        </local>
+        <visitante>
+          <nombre>Boca</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Lanus</local>
-        <visitante>Racing</visitante>
+        <local>
+          <nombre>Lanus</nombre>
+        </local>
+        <visitante>
+          <nombre>Racing</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Velez</local>
-        <visitante>San Lorenzo</visitante>
+        <local>
+          <nombre>Velez</nombre>
+        </local>
+        <visitante>
+          <nombre>San Lorenzo</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Atletico Tucuman</local>
-        <visitante>Huracan</visitante>
+        <local>
+          <nombre>Atletico Tucuman</nombre>
+        </local>
+        <visitante>
+          <nombre>Huracan</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Newells</local>
-        <visitante>Estudiantes LP</visitante>
+        <local>
+          <nombre>Newells</nombre>
+        </local>
+        <visitante>
+          <nombre>Estudiantes LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Talleres</local>
-        <visitante>Gimnasia LP</visitante>
+        <local>
+          <nombre>Talleres</nombre>
+        </local>
+        <visitante>
+          <nombre>Gimnasia LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Platense</local>
-        <visitante>Godoy Cruz</visitante>
+        <local>
+          <nombre>Platense</nombre>
+        </local>
+        <visitante>
+          <nombre>Godoy Cruz</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>14</numeroDeFecha>
       <partidos>
-        <local>Independiente</local>
-        <visitante>Newells</visitante>
+        <local>
+          <nombre>Independiente</nombre>
+        </local>
+        <visitante>
+          <nombre>Newells</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Tigre</local>
-        <visitante>Central</visitante>
+        <local>
+          <nombre>Tigre</nombre>
+        </local>
+        <visitante>
+          <nombre>Central</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>River</local>
-        <visitante>Union</visitante>
+        <local>
+          <nombre>River</nombre>
+        </local>
+        <visitante>
+          <nombre>Union</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Boca</local>
-        <visitante>Colon</visitante>
+        <local>
+          <nombre>Boca</nombre>
+        </local>
+        <visitante>
+          <nombre>Colon</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Racing</local>
-        <visitante>Banfield</visitante>
+        <local>
+          <nombre>Racing</nombre>
+        </local>
+        <visitante>
+          <nombre>Banfield</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>San Lorenzo</local>
-        <visitante>Lanus</visitante>
+        <local>
+          <nombre>San Lorenzo</nombre>
+        </local>
+        <visitante>
+          <nombre>Lanus</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Huracan</local>
-        <visitante>Velez</visitante>
+        <local>
+          <nombre>Huracan</nombre>
+        </local>
+        <visitante>
+          <nombre>Velez</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Estudiantes LP</local>
-        <visitante>Talleres</visitante>
+        <local>
+          <nombre>Estudiantes LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Talleres</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Gimnasia LP</local>
-        <visitante>Platense</visitante>
+        <local>
+          <nombre>Gimnasia LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Platense</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Godoy Cruz</local>
-        <visitante>Atletico Tucuman</visitante>
+        <local>
+          <nombre>Godoy Cruz</nombre>
+        </local>
+        <visitante>
+          <nombre>Atletico Tucuman</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>15</numeroDeFecha>
       <partidos>
-        <local>Talleres</local>
-        <visitante>Independiente</visitante>
+        <local>
+          <nombre>Talleres</nombre>
+        </local>
+        <visitante>
+          <nombre>Independiente</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Newells</local>
-        <visitante>Tigre</visitante>
+        <local>
+          <nombre>Newells</nombre>
+        </local>
+        <visitante>
+          <nombre>Tigre</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Central</local>
-        <visitante>River</visitante>
+        <local>
+          <nombre>Central</nombre>
+        </local>
+        <visitante>
+          <nombre>River</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Union</local>
-        <visitante>Boca</visitante>
+        <local>
+          <nombre>Union</nombre>
+        </local>
+        <visitante>
+          <nombre>Boca</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Colon</local>
-        <visitante>Racing</visitante>
+        <local>
+          <nombre>Colon</nombre>
+        </local>
+        <visitante>
+          <nombre>Racing</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Banfield</local>
-        <visitante>San Lorenzo</visitante>
+        <local>
+          <nombre>Banfield</nombre>
+        </local>
+        <visitante>
+          <nombre>San Lorenzo</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Lanus</local>
-        <visitante>Huracan</visitante>
+        <local>
+          <nombre>Lanus</nombre>
+        </local>
+        <visitante>
+          <nombre>Huracan</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Atletico Tucuman</local>
-        <visitante>Velez</visitante>
+        <local>
+          <nombre>Atletico Tucuman</nombre>
+        </local>
+        <visitante>
+          <nombre>Velez</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Platense</local>
-        <visitante>Estudiantes LP</visitante>
+        <local>
+          <nombre>Platense</nombre>
+        </local>
+        <visitante>
+          <nombre>Estudiantes LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Godoy Cruz</local>
-        <visitante>Gimnasia LP</visitante>
+        <local>
+          <nombre>Godoy Cruz</nombre>
+        </local>
+        <visitante>
+          <nombre>Gimnasia LP</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>16</numeroDeFecha>
       <partidos>
-        <local>Independiente</local>
-        <visitante>Platense</visitante>
+        <local>
+          <nombre>Independiente</nombre>
+        </local>
+        <visitante>
+          <nombre>Platense</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Tigre</local>
-        <visitante>Talleres</visitante>
+        <local>
+          <nombre>Tigre</nombre>
+        </local>
+        <visitante>
+          <nombre>Talleres</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>River</local>
-        <visitante>Newells</visitante>
+        <local>
+          <nombre>River</nombre>
+        </local>
+        <visitante>
+          <nombre>Newells</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Boca</local>
-        <visitante>Central</visitante>
+        <local>
+          <nombre>Boca</nombre>
+        </local>
+        <visitante>
+          <nombre>Central</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Racing</local>
-        <visitante>Union</visitante>
+        <local>
+          <nombre>Racing</nombre>
+        </local>
+        <visitante>
+          <nombre>Union</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>San Lorenzo</local>
-        <visitante>Colon</visitante>
+        <local>
+          <nombre>San Lorenzo</nombre>
+        </local>
+        <visitante>
+          <nombre>Colon</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Huracan</local>
-        <visitante>Banfield</visitante>
+        <local>
+          <nombre>Huracan</nombre>
+        </local>
+        <visitante>
+          <nombre>Banfield</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Velez</local>
-        <visitante>Lanus</visitante>
+        <local>
+          <nombre>Velez</nombre>
+        </local>
+        <visitante>
+          <nombre>Lanus</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Estudiantes LP</local>
-        <visitante>Godoy Cruz</visitante>
+        <local>
+          <nombre>Estudiantes LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Godoy Cruz</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Gimnasia LP</local>
-        <visitante>Atletico Tucuman</visitante>
+        <local>
+          <nombre>Gimnasia LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Atletico Tucuman</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>17</numeroDeFecha>
       <partidos>
-        <local>Godoy Cruz</local>
-        <visitante>Independiente</visitante>
+        <local>
+          <nombre>Godoy Cruz</nombre>
+        </local>
+        <visitante>
+          <nombre>Independiente</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Platense</local>
-        <visitante>Tigre</visitante>
+        <local>
+          <nombre>Platense</nombre>
+        </local>
+        <visitante>
+          <nombre>Tigre</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Talleres</local>
-        <visitante>River</visitante>
+        <local>
+          <nombre>Talleres</nombre>
+        </local>
+        <visitante>
+          <nombre>River</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Newells</local>
-        <visitante>Boca</visitante>
+        <local>
+          <nombre>Newells</nombre>
+        </local>
+        <visitante>
+          <nombre>Boca</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Central</local>
-        <visitante>Racing</visitante>
+        <local>
+          <nombre>Central</nombre>
+        </local>
+        <visitante>
+          <nombre>Racing</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Union</local>
-        <visitante>San Lorenzo</visitante>
+        <local>
+          <nombre>Union</nombre>
+        </local>
+        <visitante>
+          <nombre>San Lorenzo</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Colon</local>
-        <visitante>Huracan</visitante>
+        <local>
+          <nombre>Colon</nombre>
+        </local>
+        <visitante>
+          <nombre>Huracan</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Banfield</local>
-        <visitante>Velez</visitante>
+        <local>
+          <nombre>Banfield</nombre>
+        </local>
+        <visitante>
+          <nombre>Velez</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Atletico Tucuman</local>
-        <visitante>Lanus</visitante>
+        <local>
+          <nombre>Atletico Tucuman</nombre>
+        </local>
+        <visitante>
+          <nombre>Lanus</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Gimnasia LP</local>
-        <visitante>Estudiantes LP</visitante>
+        <local>
+          <nombre>Gimnasia LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Estudiantes LP</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>18</numeroDeFecha>
       <partidos>
-        <local>Independiente</local>
-        <visitante>Gimnasia LP</visitante>
+        <local>
+          <nombre>Independiente</nombre>
+        </local>
+        <visitante>
+          <nombre>Gimnasia LP</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Tigre</local>
-        <visitante>Godoy Cruz</visitante>
+        <local>
+          <nombre>Tigre</nombre>
+        </local>
+        <visitante>
+          <nombre>Godoy Cruz</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>River</local>
-        <visitante>Platense</visitante>
+        <local>
+          <nombre>River</nombre>
+        </local>
+        <visitante>
+          <nombre>Platense</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Boca</local>
-        <visitante>Talleres</visitante>
+        <local>
+          <nombre>Boca</nombre>
+        </local>
+        <visitante>
+          <nombre>Talleres</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Racing</local>
-        <visitante>Newells</visitante>
+        <local>
+          <nombre>Racing</nombre>
+        </local>
+        <visitante>
+          <nombre>Newells</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>San Lorenzo</local>
-        <visitante>Central</visitante>
+        <local>
+          <nombre>San Lorenzo</nombre>
+        </local>
+        <visitante>
+          <nombre>Central</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Huracan</local>
-        <visitante>Union</visitante>
+        <local>
+          <nombre>Huracan</nombre>
+        </local>
+        <visitante>
+          <nombre>Union</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Velez</local>
-        <visitante>Colon</visitante>
+        <local>
+          <nombre>Velez</nombre>
+        </local>
+        <visitante>
+          <nombre>Colon</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Lanus</local>
-        <visitante>Banfield</visitante>
+        <local>
+          <nombre>Lanus</nombre>
+        </local>
+        <visitante>
+          <nombre>Banfield</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Estudiantes LP</local>
-        <visitante>Atletico Tucuman</visitante>
+        <local>
+          <nombre>Estudiantes LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Atletico Tucuman</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
     <fechasDelTorneo>
       <numeroDeFecha>19</numeroDeFecha>
       <partidos>
-        <local>Estudiantes LP</local>
-        <visitante>Independiente</visitante>
+        <local>
+          <nombre>Estudiantes LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Independiente</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Gimnasia LP</local>
-        <visitante>Tigre</visitante>
+        <local>
+          <nombre>Gimnasia LP</nombre>
+        </local>
+        <visitante>
+          <nombre>Tigre</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Godoy Cruz</local>
-        <visitante>River</visitante>
+        <local>
+          <nombre>Godoy Cruz</nombre>
+        </local>
+        <visitante>
+          <nombre>River</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Platense</local>
-        <visitante>Boca</visitante>
+        <local>
+          <nombre>Platense</nombre>
+        </local>
+        <visitante>
+          <nombre>Boca</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Talleres</local>
-        <visitante>Racing</visitante>
+        <local>
+          <nombre>Talleres</nombre>
+        </local>
+        <visitante>
+          <nombre>Racing</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Newells</local>
-        <visitante>San Lorenzo</visitante>
+        <local>
+          <nombre>Newells</nombre>
+        </local>
+        <visitante>
+          <nombre>San Lorenzo</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Central</local>
-        <visitante>Huracan</visitante>
+        <local>
+          <nombre>Central</nombre>
+        </local>
+        <visitante>
+          <nombre>Huracan</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Union</local>
-        <visitante>Velez</visitante>
+        <local>
+          <nombre>Union</nombre>
+        </local>
+        <visitante>
+          <nombre>Velez</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Colon</local>
-        <visitante>Lanus</visitante>
+        <local>
+          <nombre>Colon</nombre>
+        </local>
+        <visitante>
+          <nombre>Lanus</nombre>
+        </visitante>
       </partidos>
       <partidos>
-        <local>Atletico Tucuman</local>
-        <visitante>Banfield</visitante>
+        <local>
+          <nombre>Atletico Tucuman</nombre>
+        </local>
+        <visitante>
+          <nombre>Banfield</nombre>
+        </visitante>
       </partidos>
     </fechasDelTorneo>
   </fixture>
-  <arbitros>0</arbitros>
-  <arbitros>1</arbitros>
-  <arbitros>2</arbitros>
-  <arbitros>3</arbitros>
-  <arbitros>4</arbitros>
-  <arbitros>5</arbitros>
-  <arbitros>6</arbitros>
-  <arbitros>7</arbitros>
-  <arbitros>8</arbitros>
-  <arbitros>9</arbitros>
-  <equipos>Independiente</equipos>
-  <equipos>Tigre</equipos>
-  <equipos>River</equipos>
-  <equipos>Boca</equipos>
-  <equipos>Racing</equipos>
-  <equipos>San Lorenzo</equipos>
-  <equipos>Huracan</equipos>
-  <equipos>Velez</equipos>
-  <equipos>Lanus</equipos>
-  <equipos>Banfield</equipos>
-  <equipos>Colon</equipos>
-  <equipos>Union</equipos>
-  <equipos>Central</equipos>
-  <equipos>Newells</equipos>
-  <equipos>Talleres</equipos>
-  <equipos>Platense</equipos>
-  <equipos>Godoy Cruz</equipos>
-  <equipos>Gimnasia LP</equipos>
-  <equipos>Estudiantes LP</equipos>
-  <equipos>Atletico Tucuman</equipos>
+  <arbitros>
+    <codigo>0</codigo>
+  </arbitros>
+  <arbitros>
+    <codigo>1</codigo>
+  </arbitros>
+  <arbitros>
+    <codigo>2</codigo>
+  </arbitros>
+  <arbitros>
+    <codigo>3</codigo>
+  </arbitros>
+  <arbitros>
+    <codigo>4</codigo>
+  </arbitros>
+  <arbitros>
+    <codigo>5</codigo>
+  </arbitros>
+  <arbitros>
+    <codigo>6</codigo>
+  </arbitros>
+  <arbitros>
+    <codigo>7</codigo>
+  </arbitros>
+  <arbitros>
+    <codigo>8</codigo>
+  </arbitros>
+  <arbitros>
+    <codigo>9</codigo>
+  </arbitros>
+  <equipos>
+    <nombre>Independiente</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Tigre</nombre>
+  </equipos>
+  <equipos>
+    <nombre>River</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Boca</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Racing</nombre>
+  </equipos>
+  <equipos>
+    <nombre>San Lorenzo</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Huracan</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Velez</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Lanus</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Banfield</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Colon</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Union</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Central</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Newells</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Talleres</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Platense</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Godoy Cruz</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Gimnasia LP</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Estudiantes LP</nombre>
+  </equipos>
+  <equipos>
+    <nombre>Atletico Tucuman</nombre>
+  </equipos>
 </root>

@@ -15,9 +15,9 @@ public class LecturaFixtureTest {
 
 
 	@Test
-	public void campeonatoNotNullTest() {
+	public void campeonatoCargadoTest() {
 		Campeonato campeonato = nuevoCampeonato(); 
-		assertTrue(campeonato != null);
+		assertFalse(campeonato == null);
 	}
 	
 	

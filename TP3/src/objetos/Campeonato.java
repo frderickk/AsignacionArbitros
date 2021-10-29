@@ -2,7 +2,6 @@ package objetos;
 
 import java.util.ArrayList;
 
-
 public class Campeonato {
 	
 	private ArrayList<Arbitro> arbitros;
