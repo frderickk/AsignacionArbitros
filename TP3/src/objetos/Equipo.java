@@ -46,4 +46,12 @@ public class Equipo {
 	public void agregarArbitro(int a, int fecha) {
 		arbitroAsignado[fecha] = a;	
 	}
+
+
+	@Override
+	public String toString() {
+		return ""+nombre;
+	}
+	
+	
 }

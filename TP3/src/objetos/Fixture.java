@@ -1,5 +1,6 @@
 package objetos;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Fixture {
 	
@@ -28,7 +29,8 @@ public class Fixture {
 
 	@Override
 	public String toString() {
-		return "Fixture [fechasDelTorneo=" + fechasDelTorneo + "]";
+		String fixtureFormateado = fechasDelTorneo.toString().replace(",", "").replace("[", "").replace("]", "").trim();
+		return fixtureFormateado;
 	}
 	
 	

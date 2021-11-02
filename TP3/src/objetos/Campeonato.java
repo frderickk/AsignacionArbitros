@@ -16,21 +16,13 @@ public class Campeonato {
 	}
 
 
-	public ArrayList<Integer> getArbitros() {
-		ArrayList<Integer> codigoDeArbitro = new ArrayList<Integer>();
-		for (Arbitro arbitro : this.arbitros) {
-			codigoDeArbitro.add(arbitro.getCodigo());
-		}
-		return codigoDeArbitro;
+	public ArrayList<Arbitro> getArbitros() {
+		return arbitros;
 	}
 
 
-	public ArrayList<String> getEquipos() {
-		ArrayList<String> nombreDeEquipos = new ArrayList<String>();
-		for (Equipo equipo : this.equipos) {
-			nombreDeEquipos.add(equipo.getNombre());
-		}
-		return nombreDeEquipos;
+	public ArrayList<Equipo> getEquipos() {
+		return equipos;
 	}
 
 

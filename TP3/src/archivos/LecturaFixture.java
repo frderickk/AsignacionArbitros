@@ -29,7 +29,7 @@ public class LecturaFixture {
 	
 	public static void main(String[] args) {
 		Campeonato c = nuevoCampeonato();
-		System.out.println(c.getArbitros());
+		System.out.println(c.getFixture());
 	}
 	
 	public static Campeonato nuevoCampeonato() {

@@ -25,4 +25,12 @@ public class Arbitro {
 	public String getNombre() {
 		return nombre;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Arbitro:" + nombre;
+	}
+	
+	
 }

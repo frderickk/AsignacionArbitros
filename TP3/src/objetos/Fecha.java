@@ -27,4 +27,16 @@ public class Fecha {
 	public int numeroDeFecha() {
 		return numeroDeFecha;
 	}
+
+
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("\nFecha: " + numeroDeFecha + "\n");
+		for (Partido p: this.partidos) {
+			sb.append(p.getLocal() + " vs " + p.getVisitante() + "\n");
+		}
+		return sb.toString().toUpperCase();
+	}
+	
 }
