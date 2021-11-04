@@ -1,0 +1,1715 @@
+{
+  "fixture": {
+    "fechasDelTorneo": [
+      {
+        "numeroDeFecha": 1,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Independiente"
+            },
+            "visitante": {
+              "nombre": "Atletico Tucuman"
+              }
+            },
+          {
+            "local": {
+              "nombre": "Tigre"
+            },
+            "visitante": {
+              "nombre": "Estudiantes LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "River"
+            },
+            "visitante": {
+              "nombre": "Gimnasia LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Boca"
+            },
+            "visitante": {
+              "nombre": "Godoy Cruz"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Racing"
+            },
+            "visitante": {
+              "nombre": "Platense"
+            }
+          },
+          {
+            "local": {
+              "nombre": "San Lorenzo"
+            },
+            "visitante": {
+              "nombre": "Talleres"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Huracan"
+            },
+            "visitante": {
+              "nombre": "Newells"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Velez"
+            },
+            "visitante": {
+              "nombre": "Central"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Lanus"
+            },
+            "visitante": {
+              "nombre": "Union"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Banfield"
+            },
+            "visitante": {
+              "nombre": "Colon"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 2,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Independiente"
+            },
+            "visitante": {
+              "nombre": "Tigre"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Estudiantes LP"
+            },
+            "visitante": {
+              "nombre": "River"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Gimnasia LP"
+            },
+            "visitante": {
+              "nombre": "Boca"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Godoy Cruz"
+            },
+            "visitante": {
+              "nombre": "Racing"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Platense"
+            },
+            "visitante": {
+              "nombre": "San Lorenzo"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Talleres"
+            },
+            "visitante": {
+              "nombre": "Huracan"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Newells"
+            },
+            "visitante": {
+              "nombre": "Velez"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Central"
+            },
+            "visitante": {
+              "nombre": "Lanus"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Union"
+            },
+            "visitante": {
+              "nombre": "Banfield"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Atletico Tucuman"
+            },
+            "visitante": {
+              "nombre": "Colon"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 3,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "River"
+            },
+            "visitante": {
+              "nombre": "Independiente"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Tigre"
+            },
+            "visitante": {
+              "nombre": "Atletico Tucuman"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Boca"
+            },
+            "visitante": {
+              "nombre": "Estudiantes LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Racing"
+            },
+            "visitante": {
+              "nombre": "Gimnasia LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "San Lorenzo"
+            },
+            "visitante": {
+              "nombre": "Godoy Cruz"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Huracan"
+            },
+            "visitante": {
+              "nombre": "Platense"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Velez"
+            },
+            "visitante": {
+              "nombre": "Talleres"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Lanus"
+            },
+            "visitante": {
+              "nombre": "Newells"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Banfield"
+            },
+            "visitante": {
+              "nombre": "Central"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Colon"
+            },
+            "visitante": {
+              "nombre": "Union"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 4,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Union"
+            },
+            "visitante": {
+              "nombre": "Atletico Tucuman"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Estudiantes LP"
+            },
+            "visitante": {
+              "nombre": "Racing"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Gimnasia LP"
+            },
+            "visitante": {
+              "nombre": "San Lorenzo"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Godoy Cruz"
+            },
+            "visitante": {
+              "nombre": "Huracan"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Platense"
+            },
+            "visitante": {
+              "nombre": "Velez"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Talleres"
+            },
+            "visitante": {
+              "nombre": "Lanus"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Newells"
+            },
+            "visitante": {
+              "nombre": "Banfield"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Central"
+            },
+            "visitante": {
+              "nombre": "Colon"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Independiente"
+            },
+            "visitante": {
+              "nombre": "Boca"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Tigre"
+            },
+            "visitante": {
+              "nombre": "River"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 5,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Racing"
+            },
+            "visitante": {
+              "nombre": "Independiente"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Boca"
+            },
+            "visitante": {
+              "nombre": "Tigre"
+            }
+          },
+          {
+            "local": {
+              "nombre": "San Lorenzo"
+            },
+            "visitante": {
+              "nombre": "Estudiantes LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Huracan"
+            },
+            "visitante": {
+              "nombre": "Gimnasia LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Velez"
+            },
+            "visitante": {
+              "nombre": "Godoy Cruz"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Lanus"
+            },
+            "visitante": {
+              "nombre": "Platense"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Banfield"
+            },
+            "visitante": {
+              "nombre": "Talleres"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Colon"
+            },
+            "visitante": {
+              "nombre": "Newells"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Union"
+            },
+            "visitante": {
+              "nombre": "Central"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Atletico Tucuman"
+            },
+            "visitante": {
+              "nombre": "River"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 6,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Central"
+            },
+            "visitante": {
+              "nombre": "Atletico Tucuman"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Estudiantes LP"
+            },
+            "visitante": {
+              "nombre": "Huracan"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Gimnasia LP"
+            },
+            "visitante": {
+              "nombre": "Velez"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Godoy Cruz"
+            },
+            "visitante": {
+              "nombre": "Lanus"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Platense"
+            },
+            "visitante": {
+              "nombre": "Banfield"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Talleres"
+            },
+            "visitante": {
+              "nombre": "Colon"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Newells"
+            },
+            "visitante": {
+              "nombre": "Union"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Independiente"
+            },
+            "visitante": {
+              "nombre": "San Lorenzo"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Tigre"
+            },
+            "visitante": {
+              "nombre": "Racing"
+            }
+          },
+          {
+            "local": {
+              "nombre": "River"
+            },
+            "visitante": {
+              "nombre": "Boca"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 7,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Huracan"
+            },
+            "visitante": {
+              "nombre": "Independiente"
+            }
+          },
+          {
+            "local": {
+              "nombre": "San Lorenzo"
+            },
+            "visitante": {
+              "nombre": "Tigre"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Atletico Tucuman"
+            },
+            "visitante": {
+              "nombre": "Boca"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Racing"
+            },
+            "visitante": {
+              "nombre": "River"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Velez"
+            },
+            "visitante": {
+              "nombre": "Estudiantes LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Lanus"
+            },
+            "visitante": {
+              "nombre": "Gimnasia LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Banfield"
+            },
+            "visitante": {
+              "nombre": "Godoy Cruz"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Colon"
+            },
+            "visitante": {
+              "nombre": "Platense"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Union"
+            },
+            "visitante": {
+              "nombre": "Talleres"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Central"
+            },
+            "visitante": {
+              "nombre": "Newells"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 8,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Independiente"
+            },
+            "visitante": {
+              "nombre": "Velez"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Tigre"
+            },
+            "visitante": {
+              "nombre": "Huracan"
+            }
+          },
+          {
+            "local": {
+              "nombre": "River"
+            },
+            "visitante": {
+              "nombre": "San Lorenzo"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Boca"
+            },
+            "visitante": {
+              "nombre": "Racing"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Estudiantes LP"
+            },
+            "visitante": {
+              "nombre": "Lanus"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Gimnasia LP"
+            },
+            "visitante": {
+              "nombre": "Banfield"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Godoy Cruz"
+            },
+            "visitante": {
+              "nombre": "Colon"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Platense"
+            },
+            "visitante": {
+              "nombre": "Union"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Talleres"
+            },
+            "visitante": {
+              "nombre": "Central"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Newells"
+            },
+            "visitante": {
+              "nombre": "Atletico Tucuman"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 9,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Lanus"
+            },
+            "visitante": {
+              "nombre": "Independiente"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Velez"
+            },
+            "visitante": {
+              "nombre": "Tigre"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Huracan"
+            },
+            "visitante": {
+              "nombre": "River"
+            }
+          },
+          {
+            "local": {
+              "nombre": "San Lorenzo"
+            },
+            "visitante": {
+              "nombre": "Boca"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Atletico Tucuman"
+            },
+            "visitante": {
+              "nombre": "Racing"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Banfield"
+            },
+            "visitante": {
+              "nombre": "Estudiantes LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Colon"
+            },
+            "visitante": {
+              "nombre": "Gimnasia LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Union"
+            },
+            "visitante": {
+              "nombre": "Godoy Cruz"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Central"
+            },
+            "visitante": {
+              "nombre": "Platense"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Newells"
+            },
+            "visitante": {
+              "nombre": "Talleres"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 10,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Independiente"
+            },
+            "visitante": {
+              "nombre": "Banfield"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Tigre"
+            },
+            "visitante": {
+              "nombre": "Lanus"
+            }
+          },
+          {
+            "local": {
+              "nombre": "River"
+            },
+            "visitante": {
+              "nombre": "Velez"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Boca"
+            },
+            "visitante": {
+              "nombre": "Huracan"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Racing"
+            },
+            "visitante": {
+              "nombre": "San Lorenzo"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Talleres"
+            },
+            "visitante": {
+              "nombre": "Atletico Tucuman"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Platense"
+            },
+            "visitante": {
+              "nombre": "Newells"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Godoy Cruz"
+            },
+            "visitante": {
+              "nombre": "Central"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Gimnasia LP"
+            },
+            "visitante": {
+              "nombre": "Union"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Estudiantes LP"
+            },
+            "visitante": {
+              "nombre": "Colon"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 11,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Colon"
+            },
+            "visitante": {
+              "nombre": "Independiente"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Banfield"
+            },
+            "visitante": {
+              "nombre": "Tigre"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Lanus"
+            },
+            "visitante": {
+              "nombre": "River"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Velez"
+            },
+            "visitante": {
+              "nombre": "Boca"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Huracan"
+            },
+            "visitante": {
+              "nombre": "Racing"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Atletico Tucuman"
+            },
+            "visitante": {
+              "nombre": "San Lorenzo"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Union"
+            },
+            "visitante": {
+              "nombre": "Estudiantes LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Central"
+            },
+            "visitante": {
+              "nombre": "Gimnasia LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Newells"
+            },
+            "visitante": {
+              "nombre": "Godoy Cruz"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Talleres"
+            },
+            "visitante": {
+              "nombre": "Platense"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 12,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Independiente"
+            },
+            "visitante": {
+              "nombre": "Union"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Tigre"
+            },
+            "visitante": {
+              "nombre": "Colon"
+            }
+          },
+          {
+            "local": {
+              "nombre": "River"
+            },
+            "visitante": {
+              "nombre": "Banfield"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Boca"
+            },
+            "visitante": {
+              "nombre": "Lanus"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Racing"
+            },
+            "visitante": {
+              "nombre": "Velez"
+            }
+          },
+          {
+            "local": {
+              "nombre": "San Lorenzo"
+            },
+            "visitante": {
+              "nombre": "Huracan"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Estudiantes LP"
+            },
+            "visitante": {
+              "nombre": "Central"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Gimnasia LP"
+            },
+            "visitante": {
+              "nombre": "Newells"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Godoy Cruz"
+            },
+            "visitante": {
+              "nombre": "Talleres"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Platense"
+            },
+            "visitante": {
+              "nombre": "Atletico Tucuman"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 13,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Central"
+            },
+            "visitante": {
+              "nombre": "Independiente"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Union"
+            },
+            "visitante": {
+              "nombre": "Tigre"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Colon"
+            },
+            "visitante": {
+              "nombre": "River"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Banfield"
+            },
+            "visitante": {
+              "nombre": "Boca"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Lanus"
+            },
+            "visitante": {
+              "nombre": "Racing"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Velez"
+            },
+            "visitante": {
+              "nombre": "San Lorenzo"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Atletico Tucuman"
+            },
+            "visitante": {
+              "nombre": "Huracan"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Newells"
+            },
+            "visitante": {
+              "nombre": "Estudiantes LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Talleres"
+            },
+            "visitante": {
+              "nombre": "Gimnasia LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Platense"
+            },
+            "visitante": {
+              "nombre": "Godoy Cruz"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 14,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Independiente"
+            },
+            "visitante": {
+              "nombre": "Newells"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Tigre"
+            },
+            "visitante": {
+              "nombre": "Central"
+            }
+          },
+          {
+            "local": {
+              "nombre": "River"
+            },
+            "visitante": {
+              "nombre": "Union"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Boca"
+            },
+            "visitante": {
+              "nombre": "Colon"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Racing"
+            },
+            "visitante": {
+              "nombre": "Banfield"
+            }
+          },
+          {
+            "local": {
+              "nombre": "San Lorenzo"
+            },
+            "visitante": {
+              "nombre": "Lanus"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Huracan"
+            },
+            "visitante": {
+              "nombre": "Velez"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Estudiantes LP"
+            },
+            "visitante": {
+              "nombre": "Talleres"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Gimnasia LP"
+            },
+            "visitante": {
+              "nombre": "Platense"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Godoy Cruz"
+            },
+            "visitante": {
+              "nombre": "Atletico Tucuman"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 15,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Talleres"
+            },
+            "visitante": {
+              "nombre": "Independiente"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Newells"
+            },
+            "visitante": {
+              "nombre": "Tigre"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Central"
+            },
+            "visitante": {
+              "nombre": "River"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Union"
+            },
+            "visitante": {
+              "nombre": "Boca"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Colon"
+            },
+            "visitante": {
+              "nombre": "Racing"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Banfield"
+            },
+            "visitante": {
+              "nombre": "San Lorenzo"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Lanus"
+            },
+            "visitante": {
+              "nombre": "Huracan"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Atletico Tucuman"
+            },
+            "visitante": {
+              "nombre": "Velez"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Platense"
+            },
+            "visitante": {
+              "nombre": "Estudiantes LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Godoy Cruz"
+            },
+            "visitante": {
+              "nombre": "Gimnasia LP"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 16,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Independiente"
+            },
+            "visitante": {
+              "nombre": "Platense"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Tigre"
+            },
+            "visitante": {
+              "nombre": "Talleres"
+            }
+          },
+          {
+            "local": {
+              "nombre": "River"
+            },
+            "visitante": {
+              "nombre": "Newells"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Boca"
+            },
+            "visitante": {
+              "nombre": "Central"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Racing"
+            },
+            "visitante": {
+              "nombre": "Union"
+            }
+          },
+          {
+            "local": {
+              "nombre": "San Lorenzo"
+            },
+            "visitante": {
+              "nombre": "Colon"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Huracan"
+            },
+            "visitante": {
+              "nombre": "Banfield"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Velez"
+            },
+            "visitante": {
+              "nombre": "Lanus"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Estudiantes LP"
+            },
+            "visitante": {
+              "nombre": "Godoy Cruz"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Gimnasia LP"
+            },
+            "visitante": {
+              "nombre": "Atletico Tucuman"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 17,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Godoy Cruz"
+            },
+            "visitante": {
+              "nombre": "Independiente"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Platense"
+            },
+            "visitante": {
+              "nombre": "Tigre"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Talleres"
+            },
+            "visitante": {
+              "nombre": "River"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Newells"
+            },
+            "visitante": {
+              "nombre": "Boca"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Central"
+            },
+            "visitante": {
+              "nombre": "Racing"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Union"
+            },
+            "visitante": {
+              "nombre": "San Lorenzo"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Colon"
+            },
+            "visitante": {
+              "nombre": "Huracan"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Banfield"
+            },
+            "visitante": {
+              "nombre": "Velez"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Atletico Tucuman"
+            },
+            "visitante": {
+              "nombre": "Lanus"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Gimnasia LP"
+            },
+            "visitante": {
+              "nombre": "Estudiantes LP"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 18,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Independiente"
+            },
+            "visitante": {
+              "nombre": "Gimnasia LP"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Tigre"
+            },
+            "visitante": {
+              "nombre": "Godoy Cruz"
+            }
+          },
+          {
+            "local": {
+              "nombre": "River"
+            },
+            "visitante": {
+              "nombre": "Platense"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Boca"
+            },
+            "visitante": {
+              "nombre": "Talleres"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Racing"
+            },
+            "visitante": {
+              "nombre": "Newells"
+            }
+          },
+          {
+            "local": {
+              "nombre": "San Lorenzo"
+            },
+            "visitante": {
+              "nombre": "Central"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Huracan"
+            },
+            "visitante": {
+              "nombre": "Union"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Velez"
+            },
+            "visitante": {
+              "nombre": "Colon"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Lanus"
+            },
+            "visitante": {
+              "nombre": "Banfield"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Estudiantes LP"
+            },
+            "visitante": {
+              "nombre": "Atletico Tucuman"
+            }
+          }
+        ]
+      },
+      {
+        "numeroDeFecha": 19,
+        "partidos": [
+          {
+            "local": {
+              "nombre": "Estudiantes LP"
+            },
+            "visitante": {
+              "nombre": "Independiente"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Gimnasia LP"
+            },
+            "visitante": {
+              "nombre": "Tigre"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Godoy Cruz"
+            },
+            "visitante": {
+              "nombre": "River"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Platense"
+            },
+            "visitante": {
+              "nombre": "Boca"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Talleres"
+            },
+            "visitante": {
+              "nombre": "Racing"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Newells"
+            },
+            "visitante": {
+              "nombre": "San Lorenzo"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Central"
+            },
+            "visitante": {
+              "nombre": "Huracan"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Union"
+            },
+            "visitante": {
+              "nombre": "Velez"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Colon"
+            },
+            "visitante": {
+              "nombre": "Lanus"
+            }
+          },
+          {
+            "local": {
+              "nombre": "Atletico Tucuman"
+            },
+            "visitante": {
+              "nombre": "Banfield"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "arbitros":[
+  	{
+  		"codigo": 0
+  		},
+  		{
+  		"codigo": 1
+  		},
+  		{
+  		"codigo": 2
+  		},
+  		{
+  		"codigo": 3
+  		},
+  		{
+  		"codigo": 4
+  		},
+  		{
+  		"codigo": 5
+  		},
+  		{
+  		"codigo": 6
+  		},
+  		{
+  		"codigo": 7
+  		},
+  		{
+  		"codigo": 8
+  		},
+  		{
+  		"codigo": 9
+  		}
+   ],
+  "equipos": [
+    {
+      "nombre": "Independiente"
+    },
+    {
+      "nombre": "Tigre"
+    },
+    {
+      "nombre": "River"
+    },
+    {
+      "nombre": "Boca"
+    },
+    {
+      "nombre": "Racing"
+    },
+    {
+      "nombre": "San Lorenzo"
+    },
+    {
+      "nombre": "Huracan"
+    },
+    {
+      "nombre": "Velez"
+    },
+    {
+      "nombre": "Lanus"
+    },
+    {
+      "nombre": "Banfield"
+    },
+    {
+      "nombre": "Colon"
+    },
+    {
+      "nombre": "Union"
+    },
+    {
+      "nombre": "Central"
+    },
+    {
+      "nombre": "Newells"
+    },
+    {
+      "nombre": "Talleres"
+    },
+    {
+      "nombre": "Platense"
+    },
+    {
+      "nombre": "Godoy Cruz"
+    },
+    {
+      "nombre": "Gimnasia LP"
+    },
+    {
+      "nombre": "Estudiantes LP"
+    },
+    {
+      "nombre": "Atletico Tucuman"
+    }
+   ]
+}

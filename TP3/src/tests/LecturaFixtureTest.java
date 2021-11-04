@@ -13,73 +13,45 @@ import objetos.Partido;
 
 public class LecturaFixtureTest {
 
-
 	@Test
-	public void tournamentNotNullTest() {
-		Campeonato tournament = nuevoCampeonato(); 
-		assertTrue(tournament != null);
+	public void campeonatoLecturTotalTest() {
+		Campeonato campeonato = LecturaFixture.nuevoCampeonato(); 
+		assertTrue(campeonato != null);
 	}
 	
-	@Test
-	public void tournamentCalendarNotNullTest() {
-		Campeonato tournament = nuevoCampeonato();
-		Fixture calendar = tournament.getFixture();
-		assertTrue(calendar != null);
-	}
 	
 	@Test
-	public void tournamentRefereesNotNullTest() {
-		Campeonato tournament = nuevoCampeonato();
-		ArrayList<Arbitro> referees = tournament.getArbitros();
-		assertTrue(referees != null);
+	public void cantidadDeArbitros() {
+		Campeonato campeonato = LecturaFixture.nuevoCampeonato();
+		ArrayList<Arbitro> arbitros = campeonato.getArbitros();
+		assertTrue(arbitros.size() == 10);
 	}
 	
-	@Test
-	public void tournamentTeamsNotNullTest() {
-		Campeonato tournament = nuevoCampeonato();
-		ArrayList<Equipo> teams = tournament.getEquipos();
-		assertTrue(teams != null);
-	}
 	
 	@Test
-	public void tournamentRefereesComplete() {
-		Campeonato tournament = nuevoCampeonato();
-		ArrayList<Arbitro> referees = tournament.getArbitros();
-		assertTrue(referees.size() == 10);
+	public void cantidadDeEquipos() {
+		Campeonato campeonato = LecturaFixture.nuevoCampeonato();
+		ArrayList<Equipo> equipos = campeonato.getEquipos();
+		assertTrue(equipos.size() == 20);
 	}
 	
-	@Test
-	public void tournamentTeamsComplete() {
-		Campeonato tournament = nuevoCampeonato();
-		ArrayList<Equipo> teams = tournament.getEquipos();
-		assertTrue(teams.size() == 20);
-	}
 	
 	@Test
-	public void tournametMatchDaysComplete() {
-		Campeonato tournament = nuevoCampeonato();
-		ArrayList<Fecha> gameDays = tournament.getFixture().getFechas();
-		assertTrue(gameDays.size() == 19);	
+	public void cantidadDeFechas() {
+		Campeonato campeonato = LecturaFixture.nuevoCampeonato();
+		ArrayList<Fecha> fechas = campeonato.getFixture().getFechas();
+		assertTrue(fechas.size() == 19);	
 	}
 	
+	
 	@Test
-	public void tournamentMatchesComplete() {
-		int matches = 0;
-		Campeonato tournament = nuevoCampeonato();
-		ArrayList<Fecha> gameDays = tournament.getFixture().getFechas();
-		
-		for(Fecha gameDay : gameDays) {
-			for(@SuppressWarnings("unused") Partido match : gameDay.getPartidos()) {
-				matches++;
-			}
+	public void cantidadDePartidos() {
+		Campeonato campeonato = LecturaFixture.nuevoCampeonato();
+		ArrayList<Fecha> fechas = campeonato.getFixture().getFechas();
+		int partidos = 0;
+		for (Fecha fecha : fechas) {
+			partidos += fecha.getPartidos().size();
 		}
-		assertTrue(matches == 190);
+		assertTrue(partidos == 190);	
 	}
-	
-	
-	private Campeonato nuevoCampeonato() {
-		return LecturaFixture.leerFixture("Campeonato.json");
-	}
-
-
 }

@@ -19,8 +19,13 @@ public class Fecha {
 	}
 
 	
+	/**
+	 * Clonacion de la lista de partidos
+	 * @return
+	 */
+	@SuppressWarnings("unchecked")
 	public ArrayList<Partido> getPartidos() {
-		return partidos;
+		return (ArrayList<Partido>) partidos.clone();
 	}
 
 	
@@ -34,7 +39,7 @@ public class Fecha {
 		StringBuilder sb = new StringBuilder();
 		sb.append("\nFecha: " + numeroDeFecha + "\n");
 		for (Partido p: this.partidos) {
-			sb.append(p.getLocal() + " vs " + p.getVisitante() + "\n");
+			sb.append(p.getLocal() + " vs " + p.getVisitante() + " - Arbitro: " + p.getArbitro() + "\n");
 		}
 		return sb.toString().toUpperCase();
 	}

@@ -17,7 +17,7 @@ import javax.swing.border.LineBorder;
 
 import archivos.LecturaFixture;
 import objetos.Campeonato;
-
+import solver.Solver;
 
 public class Main {
 
@@ -25,6 +25,7 @@ public class Main {
 	private JScrollPane scrollPane;
 	private JFrame frame;
 
+	
 	/**
 	 * Launch the application.
 	 */
@@ -41,6 +42,7 @@ public class Main {
 		});
 	}
 
+	
 	/**
 	 * Create the application.
 	 */
@@ -54,12 +56,13 @@ public class Main {
 		initialize();
 	}
 
+	
 	/**
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		
-		Campeonato c = nuevoCampeonato();
+		Campeonato c = LecturaFixture.nuevoCampeonato();
+		Solver.fixtureEquilibrado(c);
 
 		frame = new JFrame();
 		frame.getContentPane().setLayout(null);
@@ -96,7 +99,7 @@ public class Main {
 		fixtureArea.setEditable(false);
 		
 		scrollPane = new JScrollPane(fixtureArea);
-		scrollPane.setBounds(45, 185, 400, 400);
+		scrollPane.setBounds(29, 185, 445, 400);
 		frame.getContentPane().add(scrollPane);
 		
 		JButton asignarArbitros = new JButton("ASIGNAR ARBITROS");
@@ -126,9 +129,4 @@ public class Main {
         thumb.setIcon(icon);
         frame.getContentPane().add(thumb);
 	}	
-	
-	//ATENTOS, ESTO TIENE QUE IR EN CONTROLADOR!!!! SOLO TESTEO!!!!
-	public static Campeonato nuevoCampeonato() {
-		return LecturaFixture.leerFixture("Campeonato.json");
-	}
 }

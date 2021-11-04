@@ -3,21 +3,7 @@ package objetos;
 public class Equipo {
 	
 	private String nombre;
-	//Me suena raro que el arbitro este asignado en el equipo, lo puse en partido a ver que te parece
-	//o entendi como el hortencio lo que pusiste jajajja
-	private int [] arbitroAsignado;  
-	
-	
-	/**
-	 * Constructor Elias
-	 * @param nombre
-	 * @param fechas
-	 */
-	public Equipo(String nombre, int fechas) {
-		this.nombre = nombre;
-		this.arbitroAsignado = new int [fechas];
-	}
-	
+
 	
 	/**
 	 * Constructor Federico
@@ -31,27 +17,38 @@ public class Equipo {
 	public String getNombre() {
 		return nombre;
 	}
-
-
-	public int [] getArbitroAsignado() {
-		return arbitroAsignado;
-	}
-
-
-	public void setArbitroAsignado(int [] arbitroAsignado) {
-		this.arbitroAsignado = arbitroAsignado;
-	}
 	
-	
-	public void agregarArbitro(int a, int fecha) {
-		arbitroAsignado[fecha] = a;	
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((nombre == null) ? 0 : nombre.hashCode());
+		return result;
 	}
 
 
 	@Override
-	public String toString() {
-		return ""+nombre;
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Equipo other = (Equipo) obj;
+		if (nombre == null) {
+			if (other.nombre != null)
+				return false;
+		} else if (!nombre.equals(other.nombre))
+			return false;
+		return true;
 	}
 	
 	
+	@Override
+	public String toString() {
+		return ""+nombre;
+	}
+
 }

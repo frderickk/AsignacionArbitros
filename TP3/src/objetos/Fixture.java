@@ -1,4 +1,5 @@
 package objetos;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -16,11 +17,16 @@ public class Fixture {
 	}
 
 	
+	//Setter de fechas
 	public void setFechasDelTorneo(ArrayList<Fecha> fechasDelTorneo) {
 		this.fechasDelTorneo = fechasDelTorneo;
 	}
 
 	
+	/**
+	 * Clonacion de lista de fechas
+	 * @return
+	 */
 	@SuppressWarnings("unchecked")
 	public ArrayList<Fecha> getFechas() {
 		return (ArrayList<Fecha>) fechasDelTorneo.clone();

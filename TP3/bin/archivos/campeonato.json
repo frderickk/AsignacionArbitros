@@ -10,8 +10,8 @@
             },
             "visitante": {
               "nombre": "Atletico Tucuman"
-            }
-          },
+              }
+            },
           {
             "local": {
               "nombre": "Tigre"
@@ -1618,38 +1618,38 @@
       }
     ]
   },
-  "arbitros": [
-    {
-      "codigo": 0
-    },
-    {
-      "codigo": 1
-    },
-    {
-      "codigo": 2
-    },
-    {
-      "codigo": 3
-    },
-    {
-      "codigo": 4
-    },
-    {
-      "codigo": 5
-    },
-    {
-      "codigo": 6
-    },
-    {
-      "codigo": 7
-    },
-    {
-      "codigo": 8
-    },
-    {
-      "codigo": 9
-    }
-  ],
+  "arbitros":[
+  	{
+  		"codigo": 0
+  		},
+  		{
+  		"codigo": 1
+  		},
+  		{
+  		"codigo": 2
+  		},
+  		{
+  		"codigo": 3
+  		},
+  		{
+  		"codigo": 4
+  		},
+  		{
+  		"codigo": 5
+  		},
+  		{
+  		"codigo": 6
+  		},
+  		{
+  		"codigo": 7
+  		},
+  		{
+  		"codigo": 8
+  		},
+  		{
+  		"codigo": 9
+  		}
+   ],
   "equipos": [
     {
       "nombre": "Independiente"
@@ -1711,5 +1711,5 @@
     {
       "nombre": "Atletico Tucuman"
     }
-  ]
+   ]
 }

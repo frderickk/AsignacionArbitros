@@ -1,8 +1,6 @@
 package objetos;
 
-import java.util.Comparator;
-
-public class Partido implements Comparator<Partido> {
+public class Partido {
 
 	private Equipo local;
 	private Equipo visitante;
@@ -15,13 +13,14 @@ public class Partido implements Comparator<Partido> {
 	 * @param equipo visitante
 	 * @param arbitro
 	 */
-	public Partido(Equipo local, Equipo visitante, Arbitro arbitro) {
+	public Partido(Equipo local, Equipo visitante) {
 		this.local = local;
 		this.visitante = visitante;
-		this.arbitro = arbitro;
+		this.arbitro = null;
 	}
 
 	
+	//Getters de equipos y arbitro, setter de arbitro
 	public Equipo getLocal() {
 		return local;
 	}
@@ -43,11 +42,8 @@ public class Partido implements Comparator<Partido> {
 
 
 	@Override
-	public int compare(Partido A, Partido B) {
-		if(A.getArbitro().getCodigo() == B.getArbitro().getCodigo()) {
-			return -1;
-		} 
-		return 0;
+	public String toString() {
+		return "" + local + " vs " + visitante + ", Arbitro: " + arbitro;
 	}
 
 }

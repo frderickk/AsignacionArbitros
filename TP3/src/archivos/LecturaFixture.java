@@ -9,9 +9,13 @@ import com.google.gson.Gson;
 
 import objetos.Campeonato;
 
-
 public class LecturaFixture {
 	
+	/**
+	 * Lee un archivo Json en el cual se encuentra el modelo del campeonato
+	 * @param archivo
+	 * @return
+	 */
 	public static Campeonato leerFixture(String archivo) {
 		Gson gson = new Gson();
 		Campeonato aux = null;
@@ -19,21 +23,20 @@ public class LecturaFixture {
 			BufferedReader buffer = new BufferedReader(new FileReader(archivo));
 			aux = gson.fromJson(buffer, Campeonato.class);
 		} catch(FileNotFoundException ex) {
-	        System.out.println("Unable to open file '" + archivo + "'");                
+	        System.out.println("El " + archivo + " no se encuentra");                
 	    }
 	    catch(IOException ex) {
-	        System.out.println("Error reading file '" + archivo + "'");                  
+	        System.out.println("Error leyendo el " + archivo);                  
 	    }
 		return aux;
 	}
 	
-	public static void main(String[] args) {
-		Campeonato c = nuevoCampeonato();
-		System.out.println(c.getFixture());
-	}
 	
+	/**
+	 * @return Devuelve el campeonato cargado para poder utilizarlo en el programa
+	 */
 	public static Campeonato nuevoCampeonato() {
-		return LecturaFixture.leerFixture("Campeonato.json");
+		return LecturaFixture.leerFixture("./src/archivos/campeonato.json");
 	}
 
 }
