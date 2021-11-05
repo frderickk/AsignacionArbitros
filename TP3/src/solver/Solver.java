@@ -2,6 +2,8 @@ package solver;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Random;
+
 import objetos.Arbitro;
 import objetos.Campeonato;
 import objetos.CampeonatoSolver;
@@ -34,49 +36,23 @@ public class Solver {
 	 */
 	public static Fixture asignar(CampeonatoSolver c, Fixture f) {
 		inicializarSolver(c, f);
+		Random random = new Random();
 		Fixture aux = new Fixture(fixture.getFechas());
 		ArrayList<Fecha> fechas = fixture.getFechas();
 		Arbitro arbitroAux = new Arbitro(0, null);
 		for (Fecha fecha : fechas) {
 			ArrayList<Arbitro> arbitros = campeonato.getArbitros();
 			for (Partido p : fecha.getPartidos()) {
-				arbitroAux = Solver.elegirArbitro(p,arbitros);
+				int arbitroAleatorio = random.nextInt(arbitros.size());
+				arbitroAux = arbitros.get(arbitroAleatorio);
 				campeonato.elegirArbitro(p, arbitroAux);
 				p.setArbitro(arbitroAux);
 				arbitros.remove(arbitroAux);
 			}
+			arbitroAux.setCantidadDePartidos(fechas.size());
 		}
 		aux.setFechasDelTorneo(fechas);
 		return aux;
-	}
-	
-	
-	/**
-	 * Se encarga de elegir a los arbitros en los partidos para usarlo en el Solver
-	 * @param partido
-	 * @param lista de arbitros
-	 * @return
-	 */
-	public static Arbitro elegirArbitro(Partido partido, ArrayList<Arbitro> arbitros) {
-		Arbitro arbitroElegido = new Arbitro(0, null);
-		double promedio = 100;
-		int cantidadParaEquipoLocal = 0, cantidadParaEquipoVisitante = 0;
-		for (Arbitro a : arbitros) {
-			cantidadParaEquipoLocal = campeonato.vecesArbitroPorEquipo(partido.getLocal(), a);
-			cantidadParaEquipoVisitante = campeonato.vecesArbitroPorEquipo(partido.getVisitante(), a);
-			double promedioEquilibrado = (double) (cantidadParaEquipoLocal + cantidadParaEquipoVisitante) / 2;
-			if (promedioEquilibrado < promedio) {
-				arbitroElegido = a;
-				promedio = promedioEquilibrado;
-//				partido.getLocal().getArbitrosAsignados().add(arbitroElegido);
-//				partido.getVisitante().getArbitrosAsignados().add(arbitroElegido);
-			}
-			arbitroElegido.setCantidadDePartidos(cantidadParaEquipoLocal + cantidadParaEquipoVisitante);
-		}
-		if(arbitros.indexOf(arbitroElegido) == -1) {
-			return arbitros.get(0);
-		}
-		return arbitroElegido;
 	}
 	
 	
