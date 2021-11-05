@@ -1,7 +1,7 @@
 package solver;
 
 import java.util.ArrayList;
-
+import java.util.HashSet;
 import objetos.Arbitro;
 import objetos.Campeonato;
 import objetos.CampeonatoSolver;
@@ -60,14 +60,18 @@ public class Solver {
 	public static Arbitro elegirArbitro(Partido partido, ArrayList<Arbitro> arbitros) {
 		Arbitro arbitroElegido = new Arbitro(0, null);
 		double promedio = 100;
+		int cantidadParaEquipoLocal = 0, cantidadParaEquipoVisitante = 0;
 		for (Arbitro a : arbitros) {
-			int cantidadParaEquipoLocal = campeonato.vecesArbitroPorEquipo(partido.getLocal(), a);
-			int cantidadParaEquipoVisitante = campeonato.vecesArbitroPorEquipo(partido.getVisitante(), a);
+			cantidadParaEquipoLocal = campeonato.vecesArbitroPorEquipo(partido.getLocal(), a);
+			cantidadParaEquipoVisitante = campeonato.vecesArbitroPorEquipo(partido.getVisitante(), a);
 			double promedioEquilibrado = (double) (cantidadParaEquipoLocal + cantidadParaEquipoVisitante) / 2;
 			if (promedioEquilibrado < promedio) {
 				arbitroElegido = a;
 				promedio = promedioEquilibrado;
-			}	
+//				partido.getLocal().getArbitrosAsignados().add(arbitroElegido);
+//				partido.getVisitante().getArbitrosAsignados().add(arbitroElegido);
+			}
+			arbitroElegido.setCantidadDePartidos(cantidadParaEquipoLocal + cantidadParaEquipoVisitante);
 		}
 		if(arbitros.indexOf(arbitroElegido) == -1) {
 			return arbitros.get(0);
@@ -84,6 +88,27 @@ public class Solver {
 	public static Fixture fixtureEquilibrado(Campeonato c) {
 		campeonato = new CampeonatoSolver(c.getEquipos(), c.getArbitros());
 		return Solver.asignar(campeonato, c.getFixture());
+	}
+	
+	
+	/**
+	 * Muestra las estadisticas de la cantidad de partidos dirigidos por cada Arbitro
+	 * @param campeonato
+	 * @return
+	 */
+	public static String estadisticasArbitrales(Campeonato c) {
+		fixtureEquilibrado(c);
+		StringBuilder sb = new StringBuilder();
+		ArrayList<Arbitro> arbitros = c.getArbitros();
+		HashSet<Arbitro> cantidad = new HashSet<Arbitro>();
+		for (Arbitro a : arbitros) {
+			if(cantidad.add(a)) {
+				sb.append("Arbitro: " + a + "\n");
+				sb.append("Cantidad de partidos: " + a.getCantidadDePartidos() + "\n");
+				sb.append("-----------------------------------\n");
+			}
+		}
+		return sb.toString().replace(",", "").replace("[", "").replace("]", "").trim().toUpperCase();
 	}
 	
 }

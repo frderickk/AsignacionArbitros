@@ -4,7 +4,6 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 import archivos.LecturaFixture;
 import objetos.Campeonato;
-import objetos.CampeonatoSolver;
 import objetos.Partido;
 import solver.Solver;
 

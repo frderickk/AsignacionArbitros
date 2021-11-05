@@ -25,7 +25,7 @@ public class LecturaFixture {
 		} catch(FileNotFoundException ex) {
 	        System.out.println("El " + archivo + " no se encuentra");                
 	    }
-	    catch(IOException ex) {
+	    catch(@SuppressWarnings("hiding") IOException ex) {
 	        System.out.println("Error leyendo el " + archivo);                  
 	    }
 		return aux;

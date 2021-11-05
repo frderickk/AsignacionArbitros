@@ -6,7 +6,7 @@ public class Equipo {
 
 	
 	/**
-	 * Constructor Federico
+	 * Constructor
 	 * @param nombre
 	 */
 	public Equipo(String nombre) {
@@ -17,7 +17,7 @@ public class Equipo {
 	public String getNombre() {
 		return nombre;
 	}
-	
+
 
 	@Override
 	public int hashCode() {

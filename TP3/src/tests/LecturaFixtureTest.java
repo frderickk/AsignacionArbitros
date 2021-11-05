@@ -8,8 +8,6 @@ import objetos.Arbitro;
 import objetos.Campeonato;
 import objetos.Equipo;
 import objetos.Fecha;
-import objetos.Fixture;
-import objetos.Partido;
 
 public class LecturaFixtureTest {
 

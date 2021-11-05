@@ -39,7 +39,12 @@ public class Fecha {
 		StringBuilder sb = new StringBuilder();
 		sb.append("\nFecha: " + numeroDeFecha + "\n");
 		for (Partido p: this.partidos) {
-			sb.append(p.getLocal() + " vs " + p.getVisitante() + " - Arbitro: " + p.getArbitro() + "\n");
+			if(p.getArbitro() == null) {
+				sb.append(p.getLocal() + " vs " + p.getVisitante() + "\n");
+			}
+			else {
+				sb.append(p.getLocal() + " vs " + p.getVisitante() + " - Arbitro: " + p.getArbitro() + "\n");
+			}
 		}
 		return sb.toString().toUpperCase();
 	}
