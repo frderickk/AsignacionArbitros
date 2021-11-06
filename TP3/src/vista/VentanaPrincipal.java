@@ -40,6 +40,7 @@ public class VentanaPrincipal {
 	
 	/**
 	 * Inicializa los elementos de la GUI
+	 * @wbp.parser.entryPoint
 	 */
 	public void inicializar() {
 		controlador = new Controlador();
@@ -47,25 +48,25 @@ public class VentanaPrincipal {
 		frame = new JFrame();
 		frame.getContentPane().setLayout(null);
 		frame.setResizable(false);
-		frame.setSize(512, 787);
+		frame.setBounds(500, 25, 500, 765);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JLabel titulo = new JLabel("LA HORA REFERI !");
 		titulo.setBackground(Color.WHITE);
 		titulo.setForeground(Color.WHITE);
-		titulo.setFont(new Font("Segoe UI Black", Font.BOLD, 30));
+		titulo.setFont(new Font("Segoe UI Black", Font.BOLD, 29));
 		titulo.setHorizontalAlignment(SwingConstants.CENTER);
 		titulo.setVerticalAlignment(SwingConstants.BOTTOM);
-		titulo.setBounds(107, 59, 284, 52);
+		titulo.setBounds(100, 59, 284, 50);
 		frame.getContentPane().add(titulo);
 		
 		JLabel sombraTitulo = new JLabel("LA HORA REFERI !");
 		sombraTitulo.setVerticalAlignment(SwingConstants.BOTTOM);
 		sombraTitulo.setHorizontalAlignment(SwingConstants.CENTER);
 		sombraTitulo.setForeground(Color.BLACK);
-		sombraTitulo.setFont(new Font("Segoe UI Black", Font.BOLD, 30));
+		sombraTitulo.setFont(new Font("Segoe UI Black", Font.BOLD, 29));
 		sombraTitulo.setBackground(Color.WHITE);
-		sombraTitulo.setBounds(108, 59, 290, 52);
+		sombraTitulo.setBounds(101, 60, 290, 50);
 		frame.getContentPane().add(sombraTitulo);
 		
 		fixtureArea = new JTextArea(controlador.getCampeonato().getFixture().toString());
@@ -79,7 +80,7 @@ public class VentanaPrincipal {
 		fixtureArea.setEditable(false);
 		
 		scrollPane = new JScrollPane(fixtureArea);
-		scrollPane.setBounds(29, 185, 445, 400);
+		scrollPane.setBounds(21, 185, 445, 400);
 		frame.getContentPane().add(scrollPane);
 		
 		JButton asignarArbitros = new JButton("ASIGNAR ARBITROS");
@@ -100,10 +101,10 @@ public class VentanaPrincipal {
 				}
 			}
 		});
-		asignarArbitros.setBounds(166, 611, 156, 23);
+		asignarArbitros.setBounds(21, 637, 139, 23);
 		frame.getContentPane().add(asignarArbitros);
 		
-		JButton estadisticasArbitros = new JButton("ESTADISTICAS DE ARBITROS");
+		JButton estadisticasArbitros = new JButton("ESTADISTICAS");
 		estadisticasArbitros.setFont(new Font("Segoe UI Black", Font.PLAIN, 10));
 		estadisticasArbitros.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -122,13 +123,26 @@ public class VentanaPrincipal {
 				}
 			}
 		});
-		estadisticasArbitros.setBounds(150, 658, 184, 23);
+		estadisticasArbitros.setBounds(173, 637, 139, 23);
 		frame.getContentPane().add(estadisticasArbitros);
-			
-		ImageIcon imagen = new ImageIcon("./src/archivos/campoImagen.png");
+		
+		JButton reiniciar = new JButton("REINICIAR");
+		reiniciar.setFont(new Font("Segoe UI Black", Font.PLAIN, 10));
+		reiniciar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				controlador.resetear();
+				fixtureArea.setText(controlador.getCampeonato().getFixture().toString());
+				fixtureArea.setCaretPosition(0);
+			}
+		});
+		reiniciar.setBounds(327, 637, 139, 23);
+		frame.getContentPane().add(reiniciar);
+		
+		Fondo imagen = new Fondo(new ImageIcon("./src/archivos/campoImagen.png"));
         JLabel labelImagen = new JLabel();
-        labelImagen.setVerticalAlignment(SwingConstants.TOP);
-        labelImagen.setBounds(0, 0, 500, 750);
+        labelImagen.setHorizontalAlignment(SwingConstants.CENTER);
+        labelImagen.setVerticalAlignment(SwingConstants.CENTER);
+        labelImagen.setBounds(-11, -11, 507, 750);
         labelImagen.setIcon(imagen);
         frame.getContentPane().add(labelImagen);
         
