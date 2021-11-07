@@ -7,13 +7,15 @@ import objetos.Campeonato;
 import objetos.Partido;
 import solver.Solver;
 
+
 public class SolverTest {
 
 	@Test
-	public void elegirArbitroTest() {
+	public void elegirArbitroCorrectoTest() {
 		Campeonato campeonato = LecturaFixture.nuevoCampeonato();
-		Partido partido = campeonato.getFixture().getFechas().get(0).getPartidos().get(0);
+		Partido partido1 = campeonato.getFixture().getFechas().get(0).getPartidos().get(0);
+		Partido partido2 = campeonato.getFixture().getFechas().get(0).getPartidos().get(1);
 		Solver.fixtureEquilibrado(campeonato);
-		assertTrue(partido.getArbitro().getCodigo() == 0);
+		assertTrue(partido1.getArbitro().getCodigo() != partido2.getArbitro().getCodigo());
 	}
 }

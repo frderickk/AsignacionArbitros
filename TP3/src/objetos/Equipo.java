@@ -1,9 +1,10 @@
 package objetos;
 
+
 public class Equipo {
 	
 	private String nombre;
-
+	
 	
 	/**
 	 * Constructor
@@ -13,7 +14,7 @@ public class Equipo {
 		this.nombre = nombre;
 	}
 
-
+	
 	public String getNombre() {
 		return nombre;
 	}

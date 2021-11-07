@@ -1,5 +1,6 @@
 package objetos;
 
+
 public class Partido {
 
 	private Equipo local;

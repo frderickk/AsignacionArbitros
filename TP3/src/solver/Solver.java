@@ -1,15 +1,14 @@
 package solver;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.Random;
-
 import objetos.Arbitro;
 import objetos.Campeonato;
 import objetos.CampeonatoSolver;
 import objetos.Fecha;
 import objetos.Fixture;
 import objetos.Partido;
+
 
 public class Solver {
 	
@@ -49,7 +48,6 @@ public class Solver {
 				p.setArbitro(arbitroAux);
 				arbitros.remove(arbitroAux);
 			}
-			arbitroAux.setCantidadDePartidos(fechas.size());
 		}
 		aux.setFechasDelTorneo(fechas);
 		return aux;
@@ -65,26 +63,5 @@ public class Solver {
 		campeonato = new CampeonatoSolver(c.getEquipos(), c.getArbitros());
 		return Solver.asignar(campeonato, c.getFixture());
 	}
-	
-	
-	/**
-	 * Muestra las estadisticas de la cantidad de partidos dirigidos por cada Arbitro
-	 * @param campeonato
-	 * @return
-	 */
-	public static String estadisticasArbitrales(Campeonato c) {
-		fixtureEquilibrado(c);
-		StringBuilder sb = new StringBuilder();
-		ArrayList<Arbitro> arbitros = c.getArbitros();
-		HashSet<Arbitro> cantidad = new HashSet<Arbitro>();
-		for (Arbitro a : arbitros) {
-			if(cantidad.add(a)) {
-				sb.append("Arbitro: " + a + "\n");
-				sb.append("Cantidad de partidos: " + a.getCantidadDePartidos() + "\n");
-				sb.append("-----------------------------------\n");
-			}
-		}
-		return sb.toString().replace(",", "").replace("[", "").replace("]", "").trim().toUpperCase();
-	}
-	
+
 }

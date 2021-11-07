@@ -6,12 +6,13 @@ import java.awt.Graphics2D;
 import java.awt.geom.AffineTransform;
 import javax.swing.Icon;
 
-public class Fondo implements Icon {
+
+public class ImagenSuavizada implements Icon {
 	
     private Icon icon;
 
     
-    public Fondo(Icon icon) {
+    public ImagenSuavizada(Icon icon) {
         this.icon = icon;
     }
 

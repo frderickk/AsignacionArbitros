@@ -1,8 +1,9 @@
 package objetos;
 
+
 public class Arbitro {
 	
-	private int codigo, cantidadDePartidos;
+	private int codigo;
 	private String nombre;
 	
 	
@@ -21,20 +22,15 @@ public class Arbitro {
 	public int getCodigo() {
 		return codigo;
 	}
-	
-	
-	public int getCantidadDePartidos() {
-		return cantidadDePartidos;
-	}
-
-
-	public void setCantidadDePartidos(int cantidadDePartidos) {
-		this.cantidadDePartidos = cantidadDePartidos;
-	}
 
 
 	public String getNombre() {
 		return nombre;
+	}
+	
+	
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
 

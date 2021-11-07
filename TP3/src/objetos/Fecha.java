@@ -2,6 +2,7 @@ package objetos;
 
 import java.util.ArrayList;
 
+
 public class Fecha {
 	
 	private ArrayList<Partido> partidos;
@@ -43,7 +44,9 @@ public class Fecha {
 				sb.append(p.getLocal() + " vs " + p.getVisitante() + "\n");
 			}
 			else {
-				sb.append(p.getLocal() + " vs " + p.getVisitante() + " - Arbitro: " + p.getArbitro() + "\n");
+				sb.append(p.getLocal() + " vs " + p.getVisitante() + "\n");
+				sb.append("Arbitro: " + p.getArbitro().getCodigo() + " - " + p.getArbitro().getNombre() +  "\n");
+				sb.append("------------------------------------------\n");
 			}
 		}
 		return sb.toString().toUpperCase();

@@ -9,6 +9,7 @@ import com.google.gson.Gson;
 
 import objetos.Campeonato;
 
+
 public class LecturaFixture {
 	
 	/**

@@ -2,6 +2,7 @@ package objetos;
 
 import java.util.ArrayList;
 
+
 public class CampeonatoSolver {
 	
 	private ArrayList<Arbitro> arbitros;
@@ -41,6 +42,16 @@ public class CampeonatoSolver {
 	}
 	
 	
+	public int[][] getArbitrosPorEquipos() {
+		return arbitrosPorEquipos;
+	}
+
+
+	public void setArbitrosPorEquipos(int[][] arbitrosPorEquipos) {
+		this.arbitrosPorEquipos = arbitrosPorEquipos;
+	}
+
+
 	/**
 	 * Verifica que los equipos existan y acomoda la matriz con los indices de cada elemento
 	 * dentro de la lista de arbitros y en los partidos del campeonato
@@ -58,25 +69,6 @@ public class CampeonatoSolver {
 			throw new IllegalArgumentException(arbitro + " no existe");
 		}
 		cantidadDeVecesLocalesYVisitantes(partido, arbitro);
-	}
-	
-	
-	/**
-	 * Muestra la cantidad de veces que un arbitro corresponde a un equipo
-	 * @param equipo
-	 * @param arbitro
-	 * @return
-	 */
-	public int vecesArbitroPorEquipo(Equipo equipo, Arbitro arbitro) {
-		if(!getEquipos().contains(equipo)) {
-			throw new IllegalArgumentException(equipo + " no existe");
-		}
-		if(!getArbitros().contains(arbitro)) {
-			throw new IllegalArgumentException(arbitro + " no existe");
-		}
-		int posicionDeEquipo = getEquipos().indexOf(equipo);
-		int posicionDeArbitro = getArbitros().indexOf(arbitro);
-		return arbitrosPorEquipos[posicionDeEquipo][posicionDeArbitro];
 	}
 
 
@@ -98,8 +90,27 @@ public class CampeonatoSolver {
 	}
 
 	
+	/**
+	 * Muestra la cantidad de veces que un arbitro corresponde a un equipo
+	 * @param equipo
+	 * @param arbitro
+	 * @return
+	 */
+	private int vecesArbitroPorEquipo(Equipo equipo, Arbitro arbitro) {
+		if(!getEquipos().contains(equipo)) {
+			throw new IllegalArgumentException(equipo + " no existe");
+		}
+		if(!getArbitros().contains(arbitro)) {
+			throw new IllegalArgumentException(arbitro + " no existe");
+		}
+		int posicionDeEquipo = getEquipos().indexOf(equipo);
+		int posicionDeArbitro = getArbitros().indexOf(arbitro);
+		return arbitrosPorEquipos[posicionDeEquipo][posicionDeArbitro];
+	}
+	
+	
 	@Override
 	public String toString() {
-		return "Arbitros " + arbitros + "y equipos " + equipos + " del Campeonato";
+		return "";
 	}
 }

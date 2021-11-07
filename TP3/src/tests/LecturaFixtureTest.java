@@ -9,6 +9,7 @@ import objetos.Campeonato;
 import objetos.Equipo;
 import objetos.Fecha;
 
+
 public class LecturaFixtureTest {
 
 	@Test
