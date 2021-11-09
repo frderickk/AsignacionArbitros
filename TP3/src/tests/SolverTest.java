@@ -11,11 +11,21 @@ import solver.Solver;
 public class SolverTest {
 
 	@Test
-	public void elegirArbitroCorrectoTest() {
+	public void elegirArbitroDistintoMismaFechaTest() {
 		Campeonato campeonato = LecturaFixture.nuevoCampeonato();
 		Partido partido1 = campeonato.getFixture().getFechas().get(0).getPartidos().get(0);
 		Partido partido2 = campeonato.getFixture().getFechas().get(0).getPartidos().get(1);
 		Solver.fixtureEquilibrado(campeonato);
 		assertTrue(partido1.getArbitro().getCodigo() != partido2.getArbitro().getCodigo());
 	}
+	
+	
+//	@Test
+//	public void elegirArbitroDistintoMismaFechaTest() {
+//		Campeonato campeonato = LecturaFixture.nuevoCampeonato();
+//		Partido partido1 = campeonato.getFixture().getFechas().get(0).getPartidos().get(0);
+//		Partido partido2 = campeonato.getFixture().getFechas().get(0).getPartidos().get(1);
+//		Solver.fixtureEquilibrado(campeonato);
+//		assertTrue(partido1.getArbitro().getCodigo() != partido2.getArbitro().getCodigo());
+//	}
 }

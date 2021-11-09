@@ -60,7 +60,7 @@ public class Solver {
 	 * @return
 	 */
 	public static Fixture fixtureEquilibrado(Campeonato c) {
-		campeonato = new CampeonatoSolver(c.getEquipos(), c.getArbitros());
+		campeonato = new CampeonatoSolver(c.getFixture(), c.getEquipos(), c.getArbitros());
 		return Solver.asignar(campeonato, c.getFixture());
 	}
 

@@ -35,7 +35,7 @@ public class Fixture {
 
 	@Override
 	public String toString() {
-		String fixtureFormateado = fechasDelTorneo.toString().replace(",", "").replace("[", "").replace("]", "").trim();
+		String fixtureFormateado = fechasDelTorneo.toString().replace(",", "\n").replace("[", "").replace("]", "").trim();
 		return fixtureFormateado;
 	}
 	

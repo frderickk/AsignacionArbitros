@@ -31,6 +31,11 @@ public class Campeonato {
 	public ArrayList<Arbitro> getArbitros() {
 		return (ArrayList<Arbitro>) arbitros.clone();
 	}
+	
+
+	public void setArbitros(ArrayList<Arbitro> arbitros) {
+		this.arbitros = arbitros;
+	}
 
 
 	/**
@@ -42,6 +47,10 @@ public class Campeonato {
 		return (ArrayList<Equipo>) equipos.clone();
 	}
 
+	
+	public void setEquipos(ArrayList<Equipo> equipos) {
+		this.equipos = equipos;
+	}
 
 	//Getter de fixture
 	public Fixture getFixture() {

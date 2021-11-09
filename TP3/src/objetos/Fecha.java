@@ -41,12 +41,14 @@ public class Fecha {
 		sb.append("\nFecha: " + numeroDeFecha + "\n");
 		for (Partido p: this.partidos) {
 			if(p.getArbitro() == null) {
+				sb.append("------------------------------------------\n");
 				sb.append(p.getLocal() + " vs " + p.getVisitante() + "\n");
+				
 			}
 			else {
+				sb.append("------------------------------------------\n");
 				sb.append(p.getLocal() + " vs " + p.getVisitante() + "\n");
 				sb.append("Arbitro: " + p.getArbitro().getCodigo() + " - " + p.getArbitro().getNombre() +  "\n");
-				sb.append("------------------------------------------\n");
 			}
 		}
 		return sb.toString().toUpperCase();

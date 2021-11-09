@@ -107,11 +107,13 @@ public class VentanaPrincipal {
 							for (Arbitro a : controlador.getCampeonato().getArbitros()) {
 								if(a.getNombre() == null) {
 									ImagenSuavizada icono = new ImagenSuavizada(new ImageIcon("./src/archivos/silbato.png"));
-									String nombreArbitro =  "Ingrese el apellido del arbitro: " + a.getCodigo();
+									String nombreArbitro =  null;
 									try {
-										a.setNombre((String) JOptionPane.showInputDialog(null, nombreArbitro, "LA HORA REFERI !", JOptionPane.INFORMATION_MESSAGE, icono, null, ""));
-									} 
+										nombreArbitro = (String) JOptionPane.showInputDialog(null, "Ingrese el apellido del arbitro " + a.getCodigo(), "LA HORA REFERI !", JOptionPane.INFORMATION_MESSAGE, icono, null, "");
+										a.setNombre(nombreArbitro);
+									}
 									catch (NumberFormatException i) {
+										i.printStackTrace();
 									}
 								}
 							}

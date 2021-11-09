@@ -5,8 +5,7 @@ import java.util.ArrayList;
 
 public class CampeonatoSolver {
 	
-	private ArrayList<Arbitro> arbitros;
-	private ArrayList<Equipo> equipos;
+	private Campeonato campeonato;
 	private int[][] arbitrosPorEquipos;
 
 	
@@ -15,9 +14,8 @@ public class CampeonatoSolver {
 	 * @param equipos
 	 * @param arbitros
 	 */
-	public CampeonatoSolver(ArrayList<Equipo> equipos, ArrayList<Arbitro> arbitros) {
-		this.arbitros = arbitros;
-		this.equipos = equipos;
+	public CampeonatoSolver(Fixture fixture, ArrayList<Equipo> equipos, ArrayList<Arbitro> arbitros) {
+		campeonato = new Campeonato(fixture, arbitros, equipos);
 		this.arbitrosPorEquipos = new int[getEquipos().size()][getArbitros().size()];
 	}
 
@@ -26,9 +24,8 @@ public class CampeonatoSolver {
 	 * Clonacion de lista de arbitros
 	 * @return
 	 */
-	@SuppressWarnings("unchecked")
 	public ArrayList<Arbitro> getArbitros() {
-		return (ArrayList<Arbitro>) arbitros.clone();
+		return campeonato.getArbitros();
 	}
 
 
@@ -36,9 +33,8 @@ public class CampeonatoSolver {
 	 * Clonacion de lista de equipos
 	 * @return
 	 */
-	@SuppressWarnings("unchecked")
 	public ArrayList<Equipo> getEquipos() {
-		return (ArrayList<Equipo>) equipos.clone();
+		return campeonato.getEquipos();
 	}
 	
 	
