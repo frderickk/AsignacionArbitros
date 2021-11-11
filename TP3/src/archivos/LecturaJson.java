@@ -10,10 +10,10 @@ import com.google.gson.Gson;
 import objetos.Campeonato;
 
 
-public class LecturaFixture {
+public class LecturaJson {
 	
 	/**
-	 * Lee un archivo Json en el cual se encuentra el modelo del campeonato
+	 * Lee un archivo Json
 	 * @param archivo
 	 * @return
 	 */
@@ -37,7 +37,7 @@ public class LecturaFixture {
 	 * @return Devuelve el campeonato cargado para poder utilizarlo en el programa
 	 */
 	public static Campeonato nuevoCampeonato() {
-		return LecturaFixture.leerFixture("./src/archivos/campeonato.json");
+		return LecturaJson.leerFixture("./src/archivos/campeonato.json");
 	}
 
 }

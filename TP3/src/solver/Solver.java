@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import objetos.Arbitro;
 import objetos.Campeonato;
-import objetos.CampeonatoSolver;
+import objetos.InstanciaParaSolver;
 import objetos.Fecha;
 import objetos.Fixture;
 import objetos.Partido;
@@ -12,39 +12,39 @@ import objetos.Partido;
 
 public class Solver {
 	
-	private static CampeonatoSolver campeonato;
+	private static InstanciaParaSolver insCampeonato;
 	private static Fixture fixture;
 	
 	
 	/**
-	 * Inicializador del Solver
-	 * @param campeonato
+	 * Inicializa la instancia para el Solver
+	 * @param insCampeonato
 	 * @param fixture del campeonato
 	 */
-	public static void inicializarSolver(CampeonatoSolver c, Fixture f) {
-		campeonato = c;
+	public static void inicializarSolver(InstanciaParaSolver c, Fixture f) {
+		insCampeonato = c;
 		fixture = f;
 	}
 	
 	
 	/**
-	 * Asigna en el fixture a los arbitros
-	 * @param campeonato especial para el Solver
+	 * Asigna en el fixture los árbitros elegidos desde la instancia ya inicializada
+	 * @param insCampeonato especial para el Solver
 	 * @param fixture del campeonato
 	 * @return
 	 */
-	public static Fixture asignar(CampeonatoSolver c, Fixture f) {
+	public static Fixture asignar(InstanciaParaSolver c, Fixture f) {
 		inicializarSolver(c, f);
 		Random random = new Random();
 		Fixture aux = new Fixture(fixture.getFechas());
 		ArrayList<Fecha> fechas = fixture.getFechas();
 		Arbitro arbitroAux = new Arbitro(0, null);
 		for (Fecha fecha : fechas) {
-			ArrayList<Arbitro> arbitros = campeonato.getArbitros();
+			ArrayList<Arbitro> arbitros = insCampeonato.getArbitros();
 			for (Partido p : fecha.getPartidos()) {
 				int arbitroAleatorio = random.nextInt(arbitros.size());
 				arbitroAux = arbitros.get(arbitroAleatorio);
-				campeonato.elegirArbitro(p, arbitroAux);
+				insCampeonato.elegirArbitro(p, arbitroAux);
 				p.setArbitro(arbitroAux);
 				arbitros.remove(arbitroAux);
 			}
@@ -55,13 +55,13 @@ public class Solver {
 	
 	
 	/**
-	 * Equilibra el campeonato con el Solver en el campeonato
+	 * Retorna el campeonato pasado como parametro con la asignacion de los arbitros
 	 * @param campeonato
 	 * @return
 	 */
 	public static Fixture fixtureEquilibrado(Campeonato c) {
-		campeonato = new CampeonatoSolver(c.getFixture(), c.getEquipos(), c.getArbitros());
-		return Solver.asignar(campeonato, c.getFixture());
+		insCampeonato = new InstanciaParaSolver(c.getFixture(), c.getEquipos(), c.getArbitros());
+		return Solver.asignar(insCampeonato, c.getFixture());
 	}
 
 }

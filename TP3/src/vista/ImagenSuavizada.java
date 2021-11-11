@@ -9,21 +9,21 @@ import javax.swing.Icon;
 
 public class ImagenSuavizada implements Icon {
 	
-    private Icon icon;
+    private Icon icono;
 
     
     public ImagenSuavizada(Icon icon) {
-        this.icon = icon;
+        this.icono = icon;
     }
 
     
     public int getIconWidth() {
-        return icon.getIconWidth();
+        return icono.getIconWidth();
     }
 
     
     public int getIconHeight() {
-        return icon.getIconHeight();
+        return icono.getIconHeight();
     }
 
     
@@ -34,8 +34,8 @@ public class ImagenSuavizada implements Icon {
         int scaleX = (int)(x * at.getScaleX());
         int scaleY = (int)(y * at.getScaleY());
 
-        int offsetX = (int)(icon.getIconWidth() * (at.getScaleX() - 1) / 2);
-        int offsetY = (int)(icon.getIconHeight() * (at.getScaleY() - 1) / 2);
+        int offsetX = (int)(icono.getIconWidth() * (at.getScaleX() - 1) / 2);
+        int offsetY = (int)(icono.getIconHeight() * (at.getScaleY() - 1) / 2);
 
         int locationX = scaleX + offsetX;
         int locationY = scaleY + offsetY;
@@ -43,7 +43,7 @@ public class ImagenSuavizada implements Icon {
         AffineTransform escala = AffineTransform.getScaleInstance(1.0 / at.getScaleX(), 1.0 / at.getScaleY());
         at.concatenate(escala);
         g2d.setTransform(at);
-        icon.paintIcon(c, g2d, locationX, locationY);
+        icono.paintIcon(c, g2d, locationX, locationY);
         g2d.dispose();
     }
 

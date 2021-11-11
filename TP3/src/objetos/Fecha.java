@@ -20,6 +20,12 @@ public class Fecha {
 	}
 
 	
+	//Getter de numero de fecha
+	public int numeroDeFecha() {
+		return numeroDeFecha;
+	}
+	
+	
 	/**
 	 * Clonacion de la lista de partidos
 	 * @return
@@ -27,11 +33,6 @@ public class Fecha {
 	@SuppressWarnings("unchecked")
 	public ArrayList<Partido> getPartidos() {
 		return (ArrayList<Partido>) partidos.clone();
-	}
-
-	
-	public int numeroDeFecha() {
-		return numeroDeFecha;
 	}
 
 

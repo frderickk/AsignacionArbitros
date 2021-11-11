@@ -15,6 +15,7 @@ public class Equipo {
 	}
 
 	
+	//Getter nombre
 	public String getNombre() {
 		return nombre;
 	}

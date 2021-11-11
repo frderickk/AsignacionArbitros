@@ -22,19 +22,20 @@ public class Campeonato {
 		this.fixture = fixture;
 	}
 
-
-	/**
-	 * Clonacion de lista de arbitros
-	 * @return
-	 */
-	@SuppressWarnings("unchecked")
-	public ArrayList<Arbitro> getArbitros() {
-		return (ArrayList<Arbitro>) arbitros.clone();
+	
+	//Getter y setters
+	public Fixture getFixture() {
+		return fixture;
 	}
 	
-
+	
 	public void setArbitros(ArrayList<Arbitro> arbitros) {
 		this.arbitros = arbitros;
+	}
+	
+	
+	public void setEquipos(ArrayList<Equipo> equipos) {
+		this.equipos = equipos;
 	}
 
 
@@ -46,17 +47,17 @@ public class Campeonato {
 	public ArrayList<Equipo> getEquipos() {
 		return (ArrayList<Equipo>) equipos.clone();
 	}
-
 	
-	public void setEquipos(ArrayList<Equipo> equipos) {
-		this.equipos = equipos;
+	
+	/**
+	 * Clonacion de lista de arbitros
+	 * @return
+	 */
+	@SuppressWarnings("unchecked")
+	public ArrayList<Arbitro> getArbitros() {
+		return (ArrayList<Arbitro>) arbitros.clone();
 	}
 
-	//Getter de fixture
-	public Fixture getFixture() {
-		return fixture;
-	}
-	
 	
 	@Override
 	public String toString() {

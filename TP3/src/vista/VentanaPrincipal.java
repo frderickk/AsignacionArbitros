@@ -6,6 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -104,17 +105,19 @@ public class VentanaPrincipal {
 							controlador.fixtureConAsignacionCompleta();
 						}
 						else {
+							JComboBox<String> elegidosBox = new JComboBox<>(controlador.getPosibilidades());
 							for (Arbitro a : controlador.getCampeonato().getArbitros()) {
 								if(a.getNombre() == null) {
 									ImagenSuavizada icono = new ImagenSuavizada(new ImageIcon("./src/archivos/silbato.png"));
-									String nombreArbitro =  null;
 									try {
-										nombreArbitro = (String) JOptionPane.showInputDialog(null, "Ingrese el apellido del arbitro " + a.getCodigo(), "LA HORA REFERI !", JOptionPane.INFORMATION_MESSAGE, icono, null, "");
+										JOptionPane.showMessageDialog(null, elegidosBox, "Elija el apellido del arbitro " + a.getCodigo(), JOptionPane.INFORMATION_MESSAGE, icono);
+										String nombreArbitro = (String) elegidosBox.getSelectedItem();
 										a.setNombre(nombreArbitro);
+										elegidosBox.removeItem(nombreArbitro);
 									}
-									catch (NumberFormatException i) {
-										i.printStackTrace();
-									}
+									catch (NumberFormatException ex) {
+										ex.printStackTrace();
+									} 
 								}
 							}
 							fixtureArea.setText(controlador.getCampeonato().getFixture().toString());
@@ -132,7 +135,7 @@ public class VentanaPrincipal {
 		reiniciar.setFont(new Font("Segoe UI Black", Font.PLAIN, 10));
 		reiniciar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				controlador.resetear();
+				controlador.resetearNombre();
 				fixtureArea.setText(controlador.getCampeonato().getFixture().toString());
 				fixtureArea.setCaretPosition(0);
 			}
@@ -141,7 +144,7 @@ public class VentanaPrincipal {
 		frame.getContentPane().add(reiniciar);
 		
 		
-		ImagenSuavizada imagen = new ImagenSuavizada(new ImageIcon("./src/archivos/campoImagen.png"));
+		ImagenSuavizada imagen = new ImagenSuavizada(new ImageIcon("./src/archivos/campoImagen.png"));     
         JLabel labelImagen = new JLabel();
         labelImagen.setHorizontalAlignment(SwingConstants.CENTER);
         labelImagen.setVerticalAlignment(SwingConstants.CENTER);

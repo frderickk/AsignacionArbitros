@@ -3,7 +3,7 @@ package objetos;
 import java.util.ArrayList;
 
 
-public class CampeonatoSolver {
+public class InstanciaParaSolver {
 	
 	private Campeonato campeonato;
 	private int[][] arbitrosPorEquipos;
@@ -14,9 +14,20 @@ public class CampeonatoSolver {
 	 * @param equipos
 	 * @param arbitros
 	 */
-	public CampeonatoSolver(Fixture fixture, ArrayList<Equipo> equipos, ArrayList<Arbitro> arbitros) {
+	public InstanciaParaSolver(Fixture fixture, ArrayList<Equipo> equipos, ArrayList<Arbitro> arbitros) {
 		campeonato = new Campeonato(fixture, arbitros, equipos);
 		this.arbitrosPorEquipos = new int[getEquipos().size()][getArbitros().size()];
+	}
+	
+	
+	//Getter y setters
+	public int[][] getArbitrosPorEquipos() {
+		return arbitrosPorEquipos;
+	}
+
+
+	public void setArbitrosPorEquipos(int[][] arbitrosPorEquipos) {
+		this.arbitrosPorEquipos = arbitrosPorEquipos;
 	}
 
 
@@ -36,16 +47,6 @@ public class CampeonatoSolver {
 	public ArrayList<Equipo> getEquipos() {
 		return campeonato.getEquipos();
 	}
-	
-	
-	public int[][] getArbitrosPorEquipos() {
-		return arbitrosPorEquipos;
-	}
-
-
-	public void setArbitrosPorEquipos(int[][] arbitrosPorEquipos) {
-		this.arbitrosPorEquipos = arbitrosPorEquipos;
-	}
 
 
 	/**
@@ -64,16 +65,17 @@ public class CampeonatoSolver {
 		if(!getArbitros().contains(arbitro)) {
 			throw new IllegalArgumentException(arbitro + " no existe");
 		}
-		cantidadDeVecesLocalesYVisitantes(partido, arbitro);
+		localesYVisitantes(partido, arbitro);
 	}
 
 
 	/**
-	 * Metodo que se usa en elegirArbitro para asignar correctamente en la matriz
+	 * Metodo que se utiliza en elegirArbitro() para encontrar el índice de los equipos según sean locales o visitantes 
+	 * a través de los partidos y se va sumando las veces que un arbitro corresponde al local o al visitante.
 	 * @param partido
 	 * @param arbitro
 	 */
-	private void cantidadDeVecesLocalesYVisitantes(Partido partido, Arbitro arbitro) {
+	private void localesYVisitantes(Partido partido, Arbitro arbitro) {
 		int posicionDeEquipoLocal = getEquipos().indexOf(partido.getLocal());
 		int posicionDeArbitroLocal = getArbitros().indexOf(arbitro);
 		int vecesArbitroLocal = vecesArbitroPorEquipo(partido.getLocal(), arbitro);
@@ -102,11 +104,5 @@ public class CampeonatoSolver {
 		int posicionDeEquipo = getEquipos().indexOf(equipo);
 		int posicionDeArbitro = getArbitros().indexOf(arbitro);
 		return arbitrosPorEquipos[posicionDeEquipo][posicionDeArbitro];
-	}
-	
-	
-	@Override
-	public String toString() {
-		return "";
 	}
 }
