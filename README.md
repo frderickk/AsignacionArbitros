@@ -1,4 +1,4 @@
-# Asignación de arbitros con algoritmo goloso
+# Asignación de árbitros con algoritmo goloso
 
 Se implementa un algoritmo goloso para aplicarlo en una app para asignar árbitros a partidos de un campeonato el cual se llama La hora, referí!
 
