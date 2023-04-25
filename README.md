@@ -1,6 +1,6 @@
-# Asignación de árbitros con algoritmo goloso
+# Asignación de árbitros
 
-Se implementa un algoritmo goloso para aplicarlo en una app para asignar árbitros a partidos de un campeonato el cual se llama La hora, referí!
+Se implementa un algoritmo goloso para aplicarlo en una app para asignar árbitros a partidos de un campeonato.
 
 * Tenemos un campeonato con $2n$ equipos en el torneo de modo que cada fecha se juegan $n$ partidos.
 * Como parte de los datos de entrada tenemos el calendario de partidos.
