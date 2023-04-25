@@ -11,8 +11,8 @@ public class Fecha {
 	
 	/**
 	 * Constructor de una fecha del Torneo
-	 * @param Lista de partidos de esa fecha
-	 * @param numero de fecha
+	 * @param partidos Lista de partidos de esa fecha
+	 * @param numeroDeFecha numero de fecha
 	 */
 	public Fecha(ArrayList<Partido> partidos, int numeroDeFecha) {
 		this.partidos = partidos;

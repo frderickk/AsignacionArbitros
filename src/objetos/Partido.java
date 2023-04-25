@@ -10,9 +10,8 @@ public class Partido {
 	
 	/**
 	 * Constructor de partidos
-	 * @param equipo local
-	 * @param equipo visitante
-	 * @param arbitro
+	 * @param local equipo local
+	 * @param visitante visitante
 	 */
 	public Partido(Equipo local, Equipo visitante) {
 		this.local = local;

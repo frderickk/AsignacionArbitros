@@ -18,8 +18,8 @@ public class Solver {
 	
 	/**
 	 * Inicializa la instancia para el Solver
-	 * @param insCampeonato
-	 * @param fixture del campeonato
+	 * @param c insCampeonato
+	 * @param f fixture del campeonato
 	 */
 	public static void inicializarSolver(InstanciaParaSolver c, Fixture f) {
 		insCampeonato = c;
@@ -29,8 +29,8 @@ public class Solver {
 	
 	/**
 	 * Asigna en el fixture los árbitros elegidos desde la instancia ya inicializada
-	 * @param insCampeonato especial para el Solver
-	 * @param fixture del campeonato
+	 * @param c insCampeonato especial para el Solver
+	 * @param f fixture del campeonato
 	 * @return
 	 */
 	public static Fixture asignar(InstanciaParaSolver c, Fixture f) {
@@ -56,7 +56,7 @@ public class Solver {
 	
 	/**
 	 * Retorna el campeonato pasado como parametro con la asignacion de los arbitros
-	 * @param campeonato
+	 * @param c campeonato
 	 * @return
 	 */
 	public static Fixture fixtureEquilibrado(Campeonato c) {

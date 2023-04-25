@@ -9,8 +9,8 @@ public class Arbitro {
 	
 	/**
 	 * Constructor de Arbitro
-	 * @param codigo
-	 * @param nombre
+	 * @param codigo de arbitro
+	 * @param nombre de arbitro
 	 */
 	public Arbitro(int codigo, String nombre) {
 		this.codigo = codigo;
